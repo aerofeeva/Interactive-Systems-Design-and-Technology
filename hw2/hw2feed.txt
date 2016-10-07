@@ -1,0 +1,50 @@
+from: Lauren Beehler
+post: Is it ok if we send you the link to our GitHub/ BitBucket repo instead of uploading the .py file?
+from: Kelly Xu
+post: I am trying to commit my HW 1 but when I go to commit, I get an error message saying "There are no staged files." I successfully committed everything else before so I'm confused now.
+from: Madison Holbrook
+post: I have completed HW1 and I did team->commit->team-> push to upstream, entered my password, and everything was working fine. Accept now, on my bitbucket page it is not showing that anything has been committed since I did my first one last night. I have done the entire process both on the larger homework file and HW1, but neither has shown anything on the bitbucket website that it was backed up correctly. Any thoughts? I just want to make sure everything is saved before I submit and exit out.
+from: Kelly Xu
+post: Does anyone know if there is a specific command aside from cd that I have to use to access a folder in terminal? I know the folder exists because when I use the command ls, the folder is listed to be there but when I try to cd to it, it tells me the file doesn't exist.
+from: Sean Munson
+post: On hw1 exercise 2b, indexing is the same as slicing. Sorry for the vocab change!
+from: Bonnie Tran
+post: Is anyone else receiving this same error? "Trying to open a VM config 'C:/Users/Bonnie/Downloads/VM310/Mint/HCDE310-linuxmint-18-64bit.vbox' which has the same UUID as an existing virtual machine"
+from: John Porter
+post: Hey all, just a heads up  - I'm going to be in the student lounge in about 20 minutes for my office hours. Stop by if you're still having trouble with setup or anything!
+from: Molly Donohue
+post: On the assignment description there are two different due dates and times listed, there's Monday at 8pm, and then there's the part that says the assignment needs to be completed by the start of the second lecture. I only saw the line that said it was due on Tuesday, so will I be counted as late if I just submitted now?
+from: Bonnie Tran
+post: What is the user name and password for git assemblia?
+from: Vrishti Bhowmik
+post: For part 8, are we assuming that the user will use an IDE to follow the instructions on how to count the number of words in a text file?
+from: Alex Gilbert
+post: Hey guys, just a reminder that I'll be having office hours in Sieg 422 from 3:30 to 4:30 - come find me if you need USB's with the virtual machine files, troubleshooting, or general life advice!
+from: Yvonna Skrinnik
+post: Any chance we will be able to use the USB's tomorrow in/after class to dowload the VM? Everytime I tryto download from Google it cancels itself about halfway through and I had a class during office hours this morning.
+from: ShinYoung Lucia Choi
+post: *** Office Hours Change *** I will be having office hours tomorrow (Oct. 3rd) from 10am to 12pm at the HCDE Student Lounge for this week since the homework is due tomorrow. Not an expert on virtual machines, but I will try my best to fix problems if any! :)
+from: Eric Eckert
+post: If I chose to not use the VM, do I have to use Eclipse for part 6? Or are other environments acceptable?
+from: Becky Baron
+post: Is anyone else having an issue where everything in the Virtual Machine is showing up extremely small? I can barely read even the largest text on the screen and I'm not sure how to fix it. Here's a screenshot where I have it maximized:
+from: Addison Simon
+post: Once I have my screenshots saved within the Pictures folder of the virtual machine, is there a way I can export them so I can include them in word documents or PDFs for submitting the assignment to canvas?
+from: Tien Do
+post: Hello, did anyone get this error when trying to open the 64bit file?
+from: Madison Holbrook
+post: I'm a tad bit confused for part 7 of the homework. I can't seem to find where the 'project listing' tab would be off to the left of the screen that has the code file. I believe I downloaded it correctly though.
+from: Celina Hipolito
+post: Hey guys, I'm having trouble with the Virtual Machine. I've installed it fine but says "error: file '/boot/grub/i386-pc/normal.mod' not found" then the prompt "grub rescue>". I'm assuming I need to find this normal.mod file. Anyone know how to find it?
+from: Kate Cowley
+post: Does anybody know how I would go about doing HW0 Part 7 (Downloading code snippets) while not on the VM? I was able to clone the repository per the setup instructions using git bash. That also got me the code file for lecture 2, but I'm guessing I shouldn't have to clone every time I want to update. I tried looking it up online, but I'm hoping somebody can confirm because this is all new to me. Is updating as simple as navigating to my master directory and then doing 'git pull' ?
+from: Melody Lee
+post: Is anybody else having trouble with Virtual Machine and their internet connection? My internet was working fine until I tried to use the Internet through the Virtual Machine, just spend an hour talking to the Internet guy - it shows as my connection being fine but nothing on Internet will load. Closed out of VM, restarted multiple times, etc. All other devices work fine on the Internet... anybody know of a solution?
+from: Pooja Ghelani
+post: I keep getting locked out of virtual box, and none of the passwords / my uw password doesn't work. I'm not sure why?
+from: Mackenna Lees
+post: Anyone with Windows having major problems extracting the Mint file? E.g. "Virtual Box cannot open this session"
+from: Eric Zhang
+post: Any input on whether having Python on the virtual machine vs an IDE is more of the "industry standard?"
+from: Madison Holbrook
+post: Is eclipse an application in the menu bar or a folder on the home screen? So far it's just a folder for me that does not contain the 'homeworks' project nor hw0 folder. Does eclipse have to be downloaded as well? Or how has everyone else been accessing eclipse?
