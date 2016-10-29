@@ -1,0 +1,37 @@
+{
+	"from": {
+		"name": "Mallory Kester",
+		"id": "10203864902000998"
+	},
+	"message": "Hello! I am working on part 8 of the FeedProcessor assignment. I keep getting this error and do not quite understand how the test lines of code work with the code I have written. In particular, I am confused how the word [\"anyone\"] gets linked with the function without parameters in the function.",
+	"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/q92\/s130x130\/14666051_10208509755639436_3433306521540142142_n.jpg?oh=9c44544205ac3602017beb407f2ed97f&oe=58A2768F",
+	"link": "https:\/\/www.facebook.com\/photo.php?fbid=10208509755639436&set=gm.677124072452953&type=3",
+	"id": "667329996765694_677124072452953",
+	"comments": {
+		"data": [{
+			"created_time": "2016-10-16T07:35:56+0000",
+			"from": {
+				"name": "Sean Munson",
+				"id": "214500245"
+			},
+			"message": "Hi Mallory - in this line of code, the return value of wordFreq(\"hw3feed.txt\",'post') gets substituted in. Your function, if working properly, will return a dictionary (and from this error, it looks like it is).\n\nwordFreq(\"hw3feed.txt\",'post')[\"anyone\"] then refers to the value corresponding to \"anyone\" in that dictionary. The line compares that value with 9 to see if it matches. There is also a second comparison, for eclipse and 5.\n\nFrom the error, it looks like the returned dictionary does not contain the key \"anyone.\"  If I were debugging, the first place I'd start is to call wordFreq(\"hw3feed.txt\",\"post\") and print the return value to see if it looks like what I expect, i.e., add a line before the test lines:\nprint wordFreq(\"hw3feed.txt\",\"post\")",
+			"id": "677135442451816"
+		}, {
+			"created_time": "2016-10-16T19:52:31+0000",
+			"from": {
+				"name": "Pooja Ghelani",
+				"id": "1409497779060705"
+			},
+			"message": "I get the same error, I did what you suggested and called the function to print the return value. All I get is an empty dictionary",
+			"id": "677440829087944"
+		}, {
+			"created_time": "2016-10-16T20:03:57+0000",
+			"from": {
+				"name": "Sean Munson",
+				"id": "214500245"
+			},
+			"message": "In that case, my next step would be to add some print statements in my for loop to make sure it is actually iterating through the file. \n\nIf it isn't, the next thing I would check is whether I'm re-opening the file *within* the function (recall that each time we read the file, it \"consumes\" it, so we have to re-open it)\n\nIf it is, then I'd look at the dictionary as I am building it (inside the for loop). Is it adding things? If not, can I figure out why?",
+			"id": "677444195754274"
+		}]
+	}
+}

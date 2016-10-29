@@ -1,0 +1,439 @@
+from: Mallory Kester
+post: Hello! I am working on part 8 of the FeedProcessor assignment. I keep getting this error and do not quite understand how the test lines of code work with the code I have written. In particular, I am confused how the word ["anyone"] gets linked with the function without parameters in the function.
+from: Sean Munson
+comment: Hi Mallory - in this line of code, the return value of wordFreq("hw3feed.txt",'post') gets substituted in. Your function, if working properly, will return a dictionary (and from this error, it looks like it is).  wordFreq("hw3feed.txt",'post')["anyone"] then refers to the value corresponding to "anyone" in that dictionary. The line compares that value with 9 to see if it matches. There is also a second comparison, for eclipse and 5.  From the error, it looks like the returned dictionary does not contain the key "anyone."  If I were debugging, the first place I'd start is to call wordFreq("hw3feed.txt","post") and print the return value to see if it looks like what I expect, i.e., add a line before the test lines: print wordFreq("hw3feed.txt","post")
+from: Pooja Ghelani
+comment: I get the same error, I did what you suggested and called the function to print the return value. All I get is an empty dictionary
+from: Sean Munson
+comment: In that case, my next step would be to add some print statements in my for loop to make sure it is actually iterating through the file.   If it isn't, the next thing I would check is whether I'm re-opening the file *within* the function (recall that each time we read the file, it "consumes" it, so we have to re-open it)  If it is, then I'd look at the dictionary as I am building it (inside the for loop). Is it adding things? If not, can I figure out why?
+from: Pooja Ghelani
+post: I keep getting this error when I run part 8. Would anyone be able to tell me what it means?
+from: Sean Munson
+comment: Hi Pooja -- I think this is referring to the variable "file" -- which corresponds to <type 'file'> in Python. Double check your variable and a parameter names for the file name / file handle in wordFreq()
+from: ShinYoung Lucia Choi
+post: (Typical) Office Hours:  Monday  12:00-1:00  Michael 3:30-5:00    Alex (until 4:30), Christina   Tuesday  1:30-2:30   Lucia, John  Wednesday  12:00-1:00 Michael 1:45-3:30   Sean 3:30-4:30   Alex  Thursday  10:00-11:00  Christina 12:00-1:00   John 1:30-2:30     Lucia
+from: Sean Munson
+comment: These are usually in the 4th floor student lounge in Sieg, except mine are in my office (across the hall in Sieg 423B)
+from: Madison Holbrook
+post: I keep getting this error, even when I indent it just goes to the next line and says there is another error. Even when I comment them all out I still get the same error but it shows up at the last line of the program.
+from: ShinYoung Lucia Choi
+comment: Can you screenshot or send me (310 instructors) the .py file? It might be because there's an empty loop, conditional, or function .etc that is expecting to have something inside.
+from: Madison Holbrook
+comment: It was after I played with it some more I was able to find an empty for loop. Thanks!
+from: Sheena White
+post: Does anyone know how to get all the folders on the left side again? The first picture shows what it looks like now, and the second picture is what I used to have there. Also, I'm not sure why I'm not able to commit/push... I thought I had this fixed but everytime I re-open VM I have a new problem...
+from: Sean Munson
+comment: Hi Sheena - for getting the Lectures and Original Homework folders back, see #1 on this page: https://canvas.uw.edu/courses/1066100/pages/eclipse-troubleshooting (skipping the part about Homeworks, since it looks like that is still there)  I'm not totally sure about Git. From the icons in the screenshot on the left, it looks like they are committed and up to date, in which case the message in terminal would be correct. If you look at your repository on the web, does it show the hw3 files?
+from: Sheena White
+comment: Ok I'll visit that page, thanks!
+from: Sheena White
+comment: It doesn't seem to push to my repository using terminal, although it seemed easier to use terminal in the beginning, I did try commit/push in eclipse (Git Staging; Team > Commit...) and it worked using that, so I think I'll keep doing it that way for now!
+from: Alex Gilbert
+comment: if you still want to push using terminal, it looks like you're not adding every file to be commited, but it expects those files as well. once you navigate to the terminal, you can type "git add ." to add -everything- before git commit and git push
+from: Sheena White
+comment: I just got it to work, commit/push to terminal, Thanks!
+from: Yuliana Flores
+post: So for some reason I have no access to Virtual Box anymore. I don't know how to go about fixing this. Can anyone help?
+from: Anushree Shukla
+comment: try restarting Linux?
+from: Sean Munson
+comment: Hi - have you moved any of the files? VirtualBox is somewhat brittle with how it handles moving any of the files.
+from: John Porter
+comment: Some students have been able to fix this issue by removing the virtual machine from the VirtualBox manager (right click on it in the list, and then 'remove') and then adding it again by double-clicking on the vbox file in your Mint directory. All of your work is contained in the vdi file, so as long as you still have that, you should be able to re-add the machine and have it pick up right where you left off. Just make sure it doesn't delete when you remove the machine, if it asks!
+from: Caleb Park
+post: Do we also have to change (switch) the variable names for hw3feedprocessor.py part 4?
+from: Sean Munson
+comment: That'd be good -- sorry, I don't know how we missed this. (John and Chia-Fang will accept either when grading, this is our mistake.)
+from: Caleb Park
+comment: Thanks!
+from: Karena Vongampai
+post: I've been getting this error, while running hw3feedprocessor.py the problem I'm having is specifically in part 8. I was wondering if someone could tell me what this error means
+from: Alex Gilbert
+comment: hey! the error itself means that you're trying to "get" some data (just as array[0] would "get" the 1st element of the array), but the reason it's not getting anything is because your object basically doesn't exist/have any data to pull from. in this case the if statement is trying to get ['anyone'] from your wordFreq(fname, 'post) - that means your wordFreq isn't a proper dictionary.  one possible solution is that you're not returning anything! if you don't return a dictionary, there is no dictionary object to get data from. if you are returning something, i would go back and check out how you set up your dictionary. hope this helps!
+from: Sean Munson
+post: There's a typo in hw3feedprocessor.py part 4 - I was inconsistent in variable names between comment and comments. You can just pick one.
+from: Sean Munson
+post: Missing a phone? From Morgan: Someone left a phone in the student lounge.  I believe it's a student from 310.  If it's yours, get it in 428.
+from: Mike Eacker
+post: The instructions for hw3part1.py #9 say, "The keys # and values you print should be separated only by commas (there should be no # spaces)." The image in the PDF instructions shows spaces. A clarification from someone in the teaching crew might be nice.
+from: Sean Munson
+comment: Spaces or spaces will be fine for this part. I think they got added (autocorrect) when I copied the text into the assignment document.
+from: Madison Holbrook
+post: Hey guys! I left my computer charger (apple mac) in siege student lounge around 3:30 during office hours. Did anyone happen to see it or pick it up?
+from: Maria Medina
+comment: Msged you!!
+from: Sheena White
+post: I'm not sure what happened because I was able to commit/push earlier into my respository, but now it's not working. I was working on hw2 Part 2 and I'm getting errors when I try to commit. I deleted the hw2 files and added them again, and then had to change the hw2-exercises.py file to hw2exercises.py because it said it was invalid. Here's what happens in terminal: I appreciate any help!
+from: Sean Munson
+comment: Hi Sheena - to help debug, did you add hw2/* to git before or after changing file names and deleting them?
+from: Sheena White
+comment: I did it before and after I changed the names... when I exited out of everything after deleting all hw2 files, then started VirtualBox again, I went to add hw2 files using "./gethW.sh 2" and when I open hw2-execises.py it says "Invalid name for Python module: hw2-exercises (it'll not be analyzed)"
+from: Sheena White
+comment: this time I didn't change the name, didn't work on the hw2-exercises.py file and just tried to commit but it gives me the same message
+from: Sean Munson
+comment: My guess is that git got confused by losing track of the deleted files.   If you haven't finished hw2, it's probably best to work through that first, since you can finish that and upload a copy to Canvas without git working.  For troubleshooting, the first thing I'd try is to try a commit that notices removed files: git commit -a -m "hw2: Part 2 complete"
+from: Sean Munson
+comment: That may still, though, give you an error, in which case it may be easier to debug in office hours or class.
+from: Sheena White
+comment: Ok, I've already finished with the hw2-exercises.py so I'll try and figure that out... but I'm stuck now on part3: I keep getting 18 characters for test.txt instead of 22 like it says, but I still count 18 characters??
+from: Sheena White
+comment: with using end of line characters, I still only get 20, am I missing something?  This is splitting only whitespace: ['This\n'] ['is', 'our\n'] ['test', 'file.'] 20 characters
+from: Sean Munson
+comment: Spaces are also characters - remember that split() removes the white space it splits on.
+from: Sheena White
+comment: Ok, thanks!
+from: Ian Russell
+post: This may be a silly question but how/what do I turn in for HW2?
+from: Mackenna Lees
+comment: turn in both .py files (hw2-exercises.py and hw2-part3.py) and a screenshot of your output while running hw2feed.text for the third part :)
+from: Yodit Tefera
+comment: It's listed at the top of the homework PDF!
+from: Michael Fern
+post: Office hours tomorrow  12-1pm Michael Fern 3:30-4:30pm Alex Gilbert 3:30-5pm Christina Chung  Come by with questions and comments on homework, Git or the virtual machine!
+from: Maddie Gander
+comment: Where are office hours?
+from: Vrishti Bhowmik
+post: It was working completely fine until I was working on number 4 of HW 2 part 2. I erased the code of that part and tried to run it again, but it wouldn't run anymore. Could anyone please explain why I'm getting this error message? Why does it say "no module named hw1. hw1" on the console? This was not showing up before I started number 4. Thanks!
+from: Jessie Kuo
+comment: I had that same problem last Thursday and professor Sean told me that happens to eclipse sometimes. All you have to do is comment it out with "#"
+from: Michael Fern
+comment: Jessie Kuo has the gist of it,  This is happening because eclipse is auto completing the import statement "from h1.hw1 import lst", this happens when you press tab or sometimes even automatically fills in itself. This line will is not necessary for the assignment and can be deleted completely, although commenting would work too
+from: Vrishti Bhowmik
+comment: I got it. Thanks!
+from: Sean Munson
+post: On HW2, when you go through the feed, you might have just 50 lines. That's fine! This has to do with how the last linefeed character is handled in different environments.
+from: Kristy Chen
+comment: How about the words? I got 50 lines and 1072 words. (I am on Virtual machine.)
+from: Mackenna Lees
+post: In the HW2 spec, it says something about lions/tigers in the output? Was this from last year? (6a and 6c)
+from: Sean Munson
+comment: Yes -- should have that fixed in a second; I also just realized I saved the updates incorrectly. Thanks!
+from: Mackenna Lees
+comment: thank you sean!
+from: Mackenna Lees
+comment: is there a good way to make sure the .py files I am submitting is the committed and changed version of the homework?
+from: Sean Munson
+comment: I'm not sure what shows up in the view you get on Canvas, but at least in our grading view, Canvas shows the python file as plain text.  The most common mistake in past years has been uploading from Homeworks_OriginalVersion, so double check that (a) you've saved the Python file in Eclipse or your other editor and (b) that you're uploading from the right folder.  Also, if you continue committing and pushing to Bitbucket (please do!), you can check on the web that you've successfully sent your code to the repository. On the web, you can go to your repository, git, source, and then the homework file. This also gives you a timestamped backup, just in case anything goes wrong with the Canvas submission.
+from: Angus  Vong
+post: Hey guys, is anyone having problems counting the last line (blank line) of hw2feed.txt? I got 50 lines, but the output image shows 51 lines. Any idea?
+from: Josephine Le
+comment: Posted earlier this week: "On HW2, when you go through the feed, you might have just 50 lines. That's fine! This has to do with how the last linefeed character is handled in different environments." so it's all good :)
+from: Addison Simon
+post: After I do  cd ~ ./getHW.sh 2 like the pdf suggests, the 2 folders for HW2 are created in Homeworks and Homeworks_OriginalVersion, but they are empty...how do I fix this?
+from: Sean Munson
+comment: Are you on the virtual machine or OS X?
+from: Addison Simon
+comment: virtual machine
+from: Sean Munson
+comment: Did you get any errors at the terminal when you ran it? This sometimes happens if git can't connect to the Internet or to Assembla in particular.
+from: Addison Simon
+comment: Yes, the terminal says:
+from: Addison Simon
+comment: fatal: No remote repository specified. Please, specify either a URL or a remote name from which new revisions should be fetched. fetching hw 2. cp: cannot stat 'hw2/*': No such file or directory
+from: Sean Munson
+comment: Hrm. Can you try running: more ~/CourseFiles/hcde310a16/.git/config in termal (all one line) and pasting the output (copy and paste or screenshot is fine)?
+from: Addison Simon
+comment: 
+from: Sean Munson
+comment: Weird. Is your CourseFiles directory still there?
+from: Addison Simon
+comment: 
+from: Addison Simon
+comment: the CourseFiles folder is still there...
+from: Sean Munson
+comment: Yeah. And how about hcde310a16? It seems like it has forgotten your git repository, so trying to figure out where that happened.  Sorry for all the step by step - I know it is tedious
+from: Addison Simon
+comment: Yes, hcde310a16 is still within CourseFiles
+from: Sean Munson
+comment: thanks. if you type (within that folder):  ls -a does it show a .git directory?  or from another directory, you can try  ls -a ~/CourseFiles/hcde310a16?
+from: Addison Simon
+comment: I received: bash: Is-a~/CourseFiles/hcde310a16?: No such file or directory
+from: Addison Simon
+comment: I'm not sure if I followed your instructions correctly
+from: Sean Munson
+comment: it looks like there should be a space between the ls and -a and a and ~
+from: Addison Simon
+comment: ok now it says Is: command not found
+from: Sean Munson
+comment: oh the "l" is a lowercase L
+from: Addison Simon
+comment: Oh sorry, my bad. It now gives: ls: cannot access '/home/hcde310/CourseFiles/hcde310a16?' No such file or directory
+from: Addison Simon
+comment: should I not be including the question mark?
+from: Sean Munson
+comment: yeah - no question mark, sorry! Hard to mix commands and the text about the commands
+from: Addison Simon
+comment: 
+from: Sean Munson
+comment: strange, it totally seems to have forgotten about .git. Okay. I think you can do (each command is a separate line):  cd ~/CourseFiles/hcde310a16 git init git remote add origin https://git.assembla.com/hcde310a16.git  then try:  cd ~ ./getHW.sh  my *guess* is you will get an error in there somewhere, so when you do, go ahead and post that and we can debug from there
+from: Addison Simon
+comment: 
+from: Sean Munson
+comment: thanks. This looks like progress. Let's try:  cd ~/CourseFiles/hcde310a16/ git pull origin master  if that works, then we can change back to the home directory and try to get HW2  cd ~ ./getHW.sh 2
+from: Eric Eckert
+post: Hello,  The getHW.sh has a small issues that I would like to highlight. After some testing I discovered that if the files/folders in ./CourseFiles/hcde310a16/Homeworks are altered or moved, and getHW.sh is run again, the git fetch only seems to check whether the correct subdirectories exist and not the files. And if getHW.sh is run with a number parameter, it's written to simply copy the .py files from ./CourseFiles/hcde310a16/Homeworks to ./Homeworks. The result is that when the latter is called, the former files do not exist and the homework cannot be fetched. But if getHw.sh is called again, it does not replace the .py files because the subdirectories do exist.  I tried a few different options and discovered that git fetch followed by git reset --hard solves the problem on my computer because it always overrides everything in ./CourseFiles/hcde310a16. That shouldn't be a problem because the user is asked if they want to override the Homework files when copying them over anyways. The git reset --hard seems to not work on the Linux mint vm. Maybe one of the TAs can do some testing with this?
+from: Sean Munson
+comment: Thanks Eric. I've looked through, and a couple of notes:  =Virtual Machine = This seems to be working as expected. The git pull is outside the conditional and will run regardless of whether an argument is provided.  It does have the issue that if you delete a hw directory within CourseFiles/Homeworks, it won't reappear -- this is git performing as expected. This should be okay since the CourseFiles directory is meant to mostly be left alone with homeworks instead being done in ~/Homeworks.   I was able to run git reset --hard within the hcde310a16 directory (note: not encouraging this in general, since it'll overwrite any changes you have made to lecture files).  = getHW.sh on Canvas (for macOS) =  I've looked here too -- the git pull is outside the the conditionals, so the git fetch should be running regardless of whether it is run with our without the number.  So it seems like the only issue that occurs is when files or directories are moved from within ./CourseFIles/hcde310a16/Homeworks?  It's also possible I'm misunderstanding, so please let me know if so.
+from: Eric Eckert
+comment: Sean  Thanks for the quick reply! I do think we're on the same page. I didn't know that its not supposed to replace the files so I suppose nothing is wrong there. Yes in theory there shouldn't be any missing homework directories but I've encountered some cases where some of them are in fact missing, and the student was not able to pull homeworks as a result. I am just wondering if that base could be covered in case it happens again.
+from: Sean Munson
+comment: Got it, thanks - I'll give it some thought and test some things; also adding Michael to the thread to think about it. I've tried to pick the right set of tradeoffs between which mistakes are possible vs. prevented with this script, but knowing which issues come up can help us rethink it.
+from: Eric Eckert
+comment: Thank you Sean!
+from: Michael Fern
+comment: My two cents, The way things are done can leave some confusion. With that said I have noticed that for some the distinction between the class repository that getHW pulls from(CourseFiles/hcde310a16) and the copy folders(i.e. Homeworks, Homeworks_OrginalVersions) allows for an initial understanding of a couple of the more core 'Git rules'. Ideally, if the system is used correctly people shouldn't have to do too much else other than running 'getHW.*' To do that however, sometimes some further explanation of Git is necessary.  Eric it seems like you are adding a bit of customization to your system, which is great! If you want to stop by office hours to show us what you've done we would be happy to take a look and perhaps change the class copy of 'getHW.*' script to make the system as a whole more intuitive. If this interests you I have intended office hours are from 12-1pm and alternatively have free time before and after that :-)
+from: Becky Baron
+post: I'm using my own environment and eclipse insisted that I change the names of my files to use an underscore instead of a dash because otherwise the name was not "a valid identifier." For example, I'm now using the file name  "hw2_exercises.py" instead of "hw2-exercises.py". I'm not really sure what the issue is, but will it be a problem if i submit the files on canvas with the different names?
+from: Sean Munson
+comment: Hi Becky -- that should be okay. If it's easy to rename them when you upload, that might save the TAs a few seconds but overall not a major issue. (but John or Chia-Fang, please speak up if this will break your grading process!)
+from: Michael Fern
+post: Hi everyone working on wishing their on environments!  We made a small bug fix to 'getHW.*' (both .sh and the .bat files). Both files have been re uploaded to canvas with the fix. The feature we added allows the macOS and Windows versions of 'getHW.*' to mirror the process that is used in mint. It's not necessary to change to this file so if you are happy with your current setup, please keep using it.  New "getHW.*" file: https://canvas.uw.edu/courses/1066100/files/folder/getHW.*  'getHW.*' directions for Windows and macOS https://canvas.uw.edu/courses/1066100/pages/git-on-windows-and-mac-with-gethw-dot-star
+from: Eric Eckert
+comment: Thanks for the new script! I took a look at it and noticed it creates a "Homework" and "Homework Original Version" directory, but it pulls to "/CourseFiles/hcde310a16/Homeworks" leaving the former two directories empty. Were we supposed to use those directories for something?
+from: Michael Fern
+comment: Correct, if you run just the getHW.sh script those two folders will be created but left empty. To update 'Homeworks' and Homeworks_OringinalVersions' you have to designate which hw set to download. So.. $ sh getHW.sh 2 will  copy the files for the HW2 folder only
+from: Eric Eckert
+comment: Ok thanks. I realized I just made a small error in editing the bash script my bad.
+from: Chia-Fang Chung
+post: [HW2 & beyond] If you would like to submit a newer version of any part of the assignment, please resubmit all the files.  Canvas only allows us batch-download the latest submission. If you can help make sure that latest submission contains all your files, it'll make sure we don't miss your files and make our life a lot easier! Thanks :)
+from: Mackenna Lees
+post: Got everything able to push and commit, but when I type "./gethw.sh" into command prompt, the path is unspecified and I cannot access/download hw1 from the git repo. Thoughts/suggestions?
+from: Sean Munson
+comment: What directory are you in?  To run getHW.sh on the virtual machine, you'll need to be in your home directory. In your virtual machine, you can tell you are in the home directory because the prompt will be hcde310@adminuser-VirtualBox ~ $ rather than another directory, e.g. hcde310@adminuser-VirtualBox ~/Homeworks $
+from: Sean Munson
+comment: (also just realized that it could give an error about unspecified path if you are trying to get HW2 - that's not *quite* ready yet.)
+from: Mackenna Lees
+comment: do not have virtual box!
+from: Sean Munson
+comment: Are you on a Mac or Windows?  If on a Mac, does getHW.sh show up if you list the directory contents (to do this, you can type "ls" at the terminal).  On Windows, we've been using getHW.bat, and to see if that's in the current directory, you can type "dir" in powershell.
+from: Mackenna Lees
+comment: mmk. I'm in hcde310a16, then homeworks and after using getHW.bat the system says that is not recognized as an internal or external command. Not sure what else I should try.
+from: Sean Munson
+comment: This might be more easily addressed in a few seconds in class (since you're on your own system, it's hard for us know exactly where everything is or to know the state), so maybe catch one of us at the start of class?
+from: Mackenna Lees
+comment: Got it sorted with Lucia!! Thanks Sean.
+from: Sean Munson
+comment: Thanks for the follow up, and thanks ShinYoung Lucia Choi!
+from: ShinYoung Lucia Choi
+comment: No problem! Glad I could help :)
+from: Mallory Kester
+post: I am in my own environment. Thoughts/suggestions on how to fix this when I try to commit any file?
+from: Sean Munson
+comment: Hi Mallory - when you got to push to the server, is Eclipse prompting you for a username and password, or is it using a stored one?
+from: Lauren Beehler
+post: Is it ok if we send you the link to our GitHub/ BitBucket repo instead of uploading the .py file?
+from: Sean Munson
+comment: Hi Lauren. Thanks for asking -- on this one: 1) we'd prefer that you make the repo private.  2) Canvas makes it really easy for us to download all the assignments at once, which gets a bit harder when code is distributed across 90 repositories. It would help the TAs give everyone timely feedback if you can upload the file.
+from: Kelly Xu
+post: I am trying to commit my HW 1 but when I go to commit, I get an error message saying "There are no staged files." I successfully committed everything else before so I'm confused now.
+from: Sean Munson
+comment: Hi Kelly -- for some reason, the latest version of Eclipse doesn't seem to always recognize that you've changed a file and that it should be staged.   After you click "commit", you'll see a dialog box / panel for your commit. To the left, there should be a box "unstaged files" -- right click on the file you've changed and click "add to index"  This should work. It's also annoying, and so it may be easier to commit from terminal. I'll post notes on that shortly.
+from: Sean Munson
+comment: and notes on doing this from terminal: https://canvas.uw.edu/courses/1066100/pages/git-from-terminal
+from: Madison Holbrook
+post: I have completed HW1 and I did team->commit->team-> push to upstream, entered my password, and everything was working fine. Accept now, on my bitbucket page it is not showing that anything has been committed since I did my first one last night. I have done the entire process both on the larger homework file and HW1, but neither has shown anything on the bitbucket website that it was backed up correctly. Any thoughts? I just want to make sure everything is saved before I submit and exit out.
+from: Molly Donohue
+comment: When you do team->commit, do you get any error messages? Anything about unstaged changes?
+from: Emma Faubion
+comment: I was having the same issue. The last window that pops up before it seems like it's all good, does it have a message in brackets? Like not available or something.
+from: Sean Munson
+comment: When you are committing, are you using commit and push, or just commit?   Assuming everything is good there and it's still not working, you can also try to just use git at the terminal: https://canvas.uw.edu/courses/1066100/pages/git-from-terminal
+from: Kelly Xu
+post: Does anyone know if there is a specific command aside from cd that I have to use to access a folder in terminal? I know the folder exists because when I use the command ls, the folder is listed to be there but when I try to cd to it, it tells me the file doesn't exist.
+from: Sean Munson
+comment: Hi Kelly -- it's usually "cd <directory name>".  e.g., "cd Homeworks" will move you from your home folder to the Homeworks folder. One common, easy error here is that directory names are case sensitive.   If that doesn't do the trick, let us know which folder, and/or post a screenshot and I or others may have more ideas!
+from: Sean Munson
+post: On hw1 exercise 2b, indexing is the same as slicing. Sorry for the vocab change!
+from: Bonnie Tran
+post: Is anyone else receiving this same error? "Trying to open a VM config 'C:/Users/Bonnie/Downloads/VM310/Mint/HCDE310-linuxmint-18-64bit.vbox' which has the same UUID as an existing virtual machine"
+from: Sean Munson
+comment: A couple of students had this issue in class on Thursday -- the issue seemed to be having two copies of VirtualBox open at the same time (which can be hard to see in Windows, because of how it aggregates different instances in the task bar). Any chance you have more than one instance of VirtualBox open?
+from: Mackenna Lees
+comment: Same issue. I've reinstalled virtual box like 6 times, made sure all copies are deleted.
+from: Jackie Yu
+comment: Same problem here. I've deleted all the extra files, but this is still popping up
+from: Alex Gilbert
+comment: hey all, I've done some testing and found a solution for you. it is a bit of a hassle, so if needed I can look at it in class. for those who want to try it now (I've only tested on windows!), here it is:  1) Open up your command prompt (by typing cmd in the start menu and clicking on it). Navigate to where you installed virtual box - if you didn't move it around, you can type  cd C:\Program Files\Oracle\VirtualBox\  into your cmd.  2) Now, you'll have to copy and paste   VBOXMANAGE.EXE internalcommands sethduuid "DIRECTORY"  into your cmd, except replace DIRECTORY with the HCDE310 .vdi file location. Make sure you keep the quotes! for example, my file is located at C:\Users\Alex\Downloads\mint2\HCDE310-linuxmint-17.1-cinnamon-64bit.vdi, so I would type   VBOXMANAGE.EXE internalcommands sethduuid "C:\Users\Alex\Downloads\mint2\HCDE310-linuxmint-17.1-cinnamon-64bit.vdi"  This changes the UUID - you're getting this error because you've moved the location of the VM and are using the same image. virtual box is funny that way.  This is slightly complex, so feel free to ask for clarification! Otherwise, I can help you in/after class tomorrow.
+from: Nathan Young
+comment: I tried your solution with some help from John and I'm still getting this error:
+from: Alex Gilbert
+comment: I think I have a solution for you - I don't have my Windows machine with me, so I can't test and type it out, but let me take a look in class!
+from: John Porter
+post: Hey all, just a heads up  - I'm going to be in the student lounge in about 20 minutes for my office hours. Stop by if you're still having trouble with setup or anything!
+from: Nathan Young
+comment: Are you around still?
+from: Molly Donohue
+post: On the assignment description there are two different due dates and times listed, there's Monday at 8pm, and then there's the part that says the assignment needs to be completed by the start of the second lecture. I only saw the line that said it was due on Tuesday, so will I be counted as late if I just submitted now?
+from: Sean Munson
+comment: We don't count anything late for HW0; we just want to know who is still having tech issues so we can help before/during class on Tuesday.   For tomorrow, I won't promise to have reviewed any answers or surveys submitted after tonight, though!
+from: Bonnie Tran
+post: What is the user name and password for git assemblia?
+from: Sean Munson
+comment: Hi Bonnie -- what's triggering this dialog box? There shoudn't be anything in the homework that requires authenticating with Assembla (it's set to read only public access).
+from: Josephine Le
+comment: I thought it was just the link to use when you "git clone <git repository URL>". I didn't use VM so this is the route I took to clone the hcde310a16 repository. You don't need user/pw when cloning
+from: Sean Munson
+comment: Ah, okay. This seems to want to open it in the web browser, which Assembla doesn't like. You can view the repository directly in a web browser with out being logged in at: https://app.assembla.com/spaces/hcde310a16/git/source  and the scripts *should* work fine if you run the getHW.* scripts (whichever is appropriate for your environment). It's just clicking the .git link that seems to ask for authentication.
+from: Eric Eckert
+comment: You actually don't need the username and pass in order to pull from the repository. You wont be able to access it on the browser but pulling it should be fine.
+from: Vrishti Bhowmik
+post: For part 8, are we assuming that the user will use an IDE to follow the instructions on how to count the number of words in a text file?
+from: Sean Munson
+comment: You can decide on what assumptions to make - these might be helpful to note in part 8 or to reflect on in part 9.
+from: Alex Gilbert
+post: Hey guys, just a reminder that I'll be having office hours in Sieg 422 from 3:30 to 4:30 - come find me if you need USB's with the virtual machine files, troubleshooting, or general life advice!
+from: Sie-ce Karras
+comment: Any chance you'll be getting there a bit early? I have a class starting at 3:30 and am having some software problems.
+from: Alex Gilbert
+comment: I'm in the lounge right now and will be for a bit, but I have class up until 3:20. If you're free at 4:30 I can stay later!
+from: Sie-ce Karras
+comment: My class goes til 5:50 but I can be there in 20. Will you still be there?
+from: Alex Gilbert
+comment: I'll be here!
+from: Sie-ce Karras
+comment: Awesome!
+from: Eric Eckert
+comment: Wow! Thanks Alex! I will definitely make full use of your helpful office hours!!!!
+from: Yvonna Skrinnik
+post: Any chance we will be able to use the USB's tomorrow in/after class to dowload the VM? Everytime I tryto download from Google it cancels itself about halfway through and I had a class during office hours this morning.
+from: Alex Gilbert
+comment: We'll have some USB's available! I also have office hours today from 3:30 - 4:30 today in Sieg 422, if you want to come by and load the files then
+from: Yvonna Skrinnik
+comment: I have another class at 330 exactly, but ill try downloading it off the USB tomorrow! Thanks!
+from: ShinYoung Lucia Choi
+post: *** Office Hours Change *** I will be having office hours tomorrow (Oct. 3rd) from 10am to 12pm at the HCDE Student Lounge for this week since the homework is due tomorrow.   Not an expert on virtual machines, but I will try my best to fix problems if any! :)
+from: Mackenna Lees
+comment: I will be there.
+from: Michael Fern
+comment: My office hours tomorrow are right after from 12-1pm. Same place!
+from: Sie-ce Karras
+comment: any chance someone has office hours between 1-2 or 2-3 tomorrow?
+from: Michael Fern
+comment: Sie-ce Karras Unfortunately those times are not planned for tomorrow. But if you try to get there around 1, I might be able to give you some direction on where to go with your question/issue before I leave
+from: Eric Eckert
+post: If I chose to not use the VM, do I have to use Eclipse for part 6? Or are other environments acceptable?
+from: Sean Munson
+comment: Other environments are fine.
+from: Becky Baron
+post: Is anyone else having an issue where everything in the Virtual Machine is showing up extremely small? I can barely read even the largest text on the screen and I'm not sure how to fix it. Here's a screenshot where I have it maximized:
+from: Sean Munson
+comment: Hi Becky - I *think* that what's happening is the virtual machine doesn't recognize it should be scaling up the display content for your high res display. I've fixed this in the past by going to the Mint menu (the one you have open in the screenshot), then "Preferences" -> "General" and setting "User Interface scaling" to "Double (Hi-DPI)"
+from: Becky Baron
+comment: That fixed it! Thank you!
+from: Addison Simon
+post: Once I have my screenshots saved within the Pictures folder of the virtual machine, is there a way I can export them so I can include them in word documents or PDFs for submitting the assignment to canvas?
+from: Sean Munson
+comment: On most systems, you can drag the files to the desktop on your main computer. You might have to enable this under the "Devices" menu -> Drag and Drop -> Guest to Host (or bidirectional)
+from: Addison Simon
+comment: I did that, and now it seems to allow the picture to be dragged and dropped onto my desktop, except within virtual machine I get a "dropping data..." notification that remains at 0% so the picture is never fully copied onto the desktop.
+from: Sean Munson
+comment: Hrm. This may mean it doesn't work so well on your system. Are you on Windows or macOS?   I'm on macOS, and sometimes for expedience I just take the screenshot using macOS's utilities (cmd+shift+4, and then drag around the area I want -- the trick is I have to be *outside* the virtual box to take a screenshot).
+from: Madison Holbrook
+comment: I used my main desktop to take snap shots of my screen, put them into a word document, wrote the rest of the assignment, and then emailed myself the PDF. I then opened my email and downloaded my PDF inside the virtual machine.
+from: Addison Simon
+comment: Okay. I'm on Windows, so I will try taking the photos not through the virtual machine. Thank you for the help!
+from: Tien Do
+post: Hello, did anyone get this error when trying to open the 64bit file?
+from: Melody Lee
+comment: I think I got this error when I tried to move the file somewhere else. I solved it by moving it back into downloads
+from: Tien Do
+comment: Hmm, I didn't move the file anywhere :/
+from: Sean Munson
+comment: Hi Tien - have you installed the extension pack? https://www.virtualbox.org/wiki/Downloads
+from: Tien Do
+comment: Yes, I have. I am going to try something and get back to you guys!
+from: Tien Do
+comment: I reinstalled everything and the error went away.
+from: Madison Holbrook
+post: I'm a tad bit confused for part 7 of the homework. I can't seem to find where the 'project listing' tab would be off to the left of the screen that has the code file. I believe I downloaded it correctly though.
+from: Kelsey Fukuda
+comment: I think in eclipse in the lectures drop down you can look for s2. Or in the folders/files you can go to course files and then look through lectures
+from: Sean Munson
+comment: Kelsey's post covers where it should show up, and it does look like it downloaded fine.  The last time you tried it, it looks like the VM had some trouble connecting to the git repository. I'm actually having a similar problem now, so I'll keep an eye on it.
+from: Celina Hipolito
+post: Hey guys, I'm having trouble with the Virtual Machine. I've installed it fine but says "error: file '/boot/grub/i386-pc/normal.mod' not found" then the prompt "grub rescue>". I'm assuming I need to find this normal.mod file. Anyone know how to find it?
+from: Sean Munson
+comment: Hi Celina -- a couple of questions to help troubleshoot. (1) Did you install from the download or a USB drive? (2) did it ever run correctly on your machine?
+from: Celina Hipolito
+comment: I downloaded from google drive and no, it gives me this error every time.
+from: Sean Munson
+comment: If, in the VirtualBox Manager window, you click on settings, can you post a screenshot of the results?
+from: Celina Hipolito
+comment: 
+from: Celina Hipolito
+comment: Also possibly of interest, it gives a warning upon starting the VM manager:
+from: Sean Munson
+comment: thanks -- can you try running "check"?   There's a chance your download -- or the way it extracted -- is corrupt, in which case it will be easiest to just copy the files off a USB drive in office hours. But I want to try a couple of other thing first.
+from: Celina Hipolito
+comment: 
+from: Sean Munson
+comment: Yeah... that looks like the file or extraction got corrupted (it should be about 10 GB). You can try re downloading, but it may not be worth the trouble. If you can make the Monday office hours, that may be a better use of your time.
+from: Brent Gruenke
+comment: I ran into the same issue. Windows 7. I finally just reinstalled everything then took the files from Dropbox and it works perfect now. I think the issue was something didn't extract right. Might be worth a try with the Dropbox files.
+from: Celina Hipolito
+comment: Okay, I'll try that! Thanks guys!!
+from: Kate Cowley
+post: Does anybody know how I would go about doing HW0 Part 7 (Downloading code snippets) while not on the VM?   I was able to clone the repository per the setup instructions using git bash. That also got me the code file for lecture 2, but I'm guessing I shouldn't have to clone every time I want to update.  I tried looking it up online, but I'm hoping somebody can confirm because this is all new to me. Is updating as simple as navigating to my master directory and then doing 'git pull' ?
+from: Samuel San Nicolas
+comment: The file is on the canvas page. Download that and just run it. It's just a bash script that pretty much just fetches from the git repo, so I don't think you really need it though.
+from: Sean Munson
+comment: Hi Kate - it will mostly be as simple as a git pull, depending on where you edit your homeworks
+from: Josephine Le
+comment: I did setup without VM on a MacBook -- not sure what computer you're using, but this is what worked for me:   I downloaded the ./getHW.sh file from Canvas and put it in the hcde310a16 folder (from cloning the repository). Navigate there in Terminal, then type ./getHW.sh and it should update whenever you type that in the future. If permission is denied (which it was for me the first time I tried) then type: chmod 0755 ./getHW.sh
+from: Kate Cowley
+comment: Got it working, thank you all!
+from: Melody Lee
+post: Is anybody else having trouble with Virtual Machine and their internet connection? My internet was working fine until I tried to use the Internet through the Virtual Machine, just spend an hour talking to the Internet guy - it shows as my connection being fine but nothing on Internet will load. Closed out of VM, restarted multiple times, etc. All other devices work fine on the Internet... anybody know of a solution?
+from: Sean Munson
+comment: Does your Internet connection work fine other than in the Virtual Machine?   If so, it's probably the case that Virtual Machine need to be configured a little differently on your system. In VirtualBox, select Devices -> Network from the menu, and then Network settings. You should have a drop down, options that *usually* work for are: NAT NAT Network NAT Bridged   one student last year found that NAT didn't work at first, changed it to something else, and that didn't work -- and then changed it back to NAT, only to have it start working.  So maybe try those three, and then go back to whatever it whatever it was on if it doesn't start working. If that doesn't work, let us know what operating system you are on and we can do some more reading  to see if that prompts any more ideas.
+from: Pooja Ghelani
+post: I keep getting locked out of virtual box, and none of the passwords / my uw password doesn't work. I'm not sure why?
+from: ShinYoung Lucia Choi
+comment: Try hcde310a16 that's the password for the VM if I remember correctly.
+from: Pooja Ghelani
+comment: Thanks! Also for part 7 I'm not really sure what we're supposed to take a screenshot of. This is what happens in the terminal  when I type this: ./getHW.sh. in
+from: Jessie Kuo
+comment: If I'm not wrong, after you downloaded the latest work from git repository (which you did in this case) you should take a screenshot of Eclipse (the left side where the project listings are) showing that you have "s2" in your "Lectures" file. Hope this helps ~
+from: Sean Munson
+comment: Yup - if s2 appears, we know it's working. You may need to right click the Lectures folder and select "Refresh"
+from: Mackenna Lees
+post: Anyone with Windows having major problems extracting the Mint file? E.g. "Virtual Box cannot open this session"
+from: Kelsey Fukuda
+comment: I had this problem a lot! Even downloading VM directly didn't work. I got the uncompressed file from one of the instructors' flash drives instead
+from: Sean Munson
+comment: Hi Mackenna - if it doesn't work, you might also try downloading one the Dropbox zip file (https://www.dropbox.com/s/0aawafxoik35v5a/VM310.zip?dl=0) or the tar.gz (https://www.dropbox.com/s/nsry38imz2uaowr/VM310.tar.gz?dl=0). These were each compressed a different way, so they *may* work better.  If not, we can work with you in office hours on Monday (12-1:00pm or 3:30pm) to get things set up. Or those times don't work, I can leave a USB drive with the HCDE front office by mid-morning Monday.
+from: Eric Zhang
+post: Any input on whether having Python on the virtual machine vs an IDE is more of the "industry standard?"
+from: Samuel San Nicolas
+comment: What do you mean by "on"? In my experience, most people write their code in an IDE and then test/deploy through some command line interface. Usually it's up to personal preference though. Although I'd say learning to use the command line is pretty important.
+from: Sean Munson
+comment: Yeah -- similar to Samuel's experiences, once you start developing production apps, people tend to develop in whatever environment is comfortable for them (or specified by their employer) and then test/run it elsewhere.  Later in the quarter, we'll get to Google Cloud SDK (formerly App Engine), which uses virtual machines to run production environments. Amazon Web Services Elastic Compute Cloud follows a similar approach. This is a common approach, for a mix of reasons. The top in my experience are: (1) you can customize the virtual system to your application's, (2) you can limit the amount of resources your virtual system uses on a shared physical machine,  (3) if you (or someone else using the same physical machine) writes a buggy app that crashes the system, it (typically) crashes just the virtual machine, rather than the entire system, and (4) it's easy to launch other "instances" of the virtual machine on other systems, so you can handle sudden spikes in traffic.   Approaches like that are common for web apps now.  But I've also had some projects (typically remote collaborations) where it was easiest to create a virtual machine and run it on our own laptops, just like in class. For small scale data analysis, you also often write and run the code on the same system -- we do this a lot in our research, and many people do that for weblog analysis on small or medium sites (but this quickly becomes impractical when you get to Facebook-scale data).  Docker (https://www.docker.com/what-docker) has also become increasingly popular, and we're using it for some projects in our research now. A big difference is that VirtualMachines require you to run an entire guest operating system (in 310, this is the Linux Mint distribution), which has a lot of overhead in spaced resources. Docker relies on the host operating system (Windows, OS X, or whatever else you are already running) but still sets up containers with customized environments and resource environments. It's also increasingly supported by cloud hosting services (e.g., Google Cloud).
+from: Eric Zhang
+comment: I see. That makes a lot of sense - thanks for the help!
+from: Madison Holbrook
+post: Is eclipse an application in the menu bar or a folder on the home screen? So far it's just a folder for me that does not contain the 'homeworks' project nor hw0 folder. Does eclipse have to be downloaded as well? Or how has everyone else been accessing eclipse?
+from: Oorja Chowdhary
+comment: It should be on the desktop of the VM, so you shouldn't have to download it.
+from: Madison Holbrook
+comment: That's what I thought. Have you been able to access it and manipulate the homework file?
+from: Oorja Chowdhary
+comment: Yeah! It should be on the left side of Eclipse under a folder called Homeworks.
+from: Madison Holbrook
+comment: Alright I'll try again! Thanks
+from: Sean Munson
+comment: Let us know if that doesn't work - if you can post a screenshot of what you do see, that should help us figure out the next steps for troubleshooting
+from: Madison Holbrook
+comment: I figured it out! Thanks. I was in the wrong screen, so I only saw a file for eclipse and not the actual application.
+from: Karena Vongampai
+post: If we're uploading our code file through the virtual machine, is it alright to do 2 submissions? 1 containing the code file, and the other a document with all the screenshots in it?
+from: Sean Munson
+comment: If you do two submissions, please leave a submission comment - the tool we have for downloading assignments usually only downloads the latest submission.  It *may* also be possible to drag and drop the file from the virtual machine to your computer - though that does not work on every system. On a Mac, you might have to enable it by going to the Devices menu, then enabling guest to host or bidirectional drag and drop.
+from: Karena Vongampai
+comment: Thank you!
+from: Ian Russell
+post: Once I have Linux running in the virtual machine what is the next step?. Should it have python on it?
+from: Oorja Chowdhary
+comment: Yeah it should have python 2.7 on there, and you would run the python programs using Eclipse! Most of the instructions are on the hw0 pdf.
+from: Sean Munson
+from: Sean Munson
+from: Sean Munson

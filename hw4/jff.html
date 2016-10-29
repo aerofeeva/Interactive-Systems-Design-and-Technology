@@ -1,0 +1,122 @@
+<html>
+<head>
+<title>HW4 Just for Fun Exercise</title>
+<script src="./d3.v2.min.js"></script>
+<script>
+
+d3.csv('./contribs.csv', function(data){
+   var valueLabelWidth = 0; // space reserved for value labels (right)
+   var barHeight = 18; // height of one bar
+   var barLabelWidth = 160; // space reserved for bar labels
+   var barLabelPadding = 5; // padding between bar and bar labels (left)
+   var gridLabelHeight = 18; // space reserved for gridline labels
+   var gridChartOffset = 3; // space between start of grid and first bar
+   var maxBarWidth = 420; // width of the bar with the max value
+
+  var barLabel = function(d) { return d['name']; };
+  var postValue = function(d) { return parseInt(d['postcount']); };
+  var commentValue = function(d) { return parseInt(d['commentcount']); };
+  var barValue = function(d) { return parseInt(d['postcount'])+parseInt(d['commentcount']); };
+  var sortedData = data.sort(function(a, b) { return d3.descending(barValue(a), barValue(b));}); 
+
+   // scales
+   var yScale = d3.scale.ordinal().domain(d3.range(0, sortedData.length)).rangeBands([0, sortedData.length * barHeight]);
+   var y = function(d, i) { return yScale(i); };
+   var yText = function(d, i) { return y(d, i) + yScale.rangeBand() / 2; };
+   var x = d3.scale.linear().domain([0, d3.max(sortedData, barValue)]).range([0, maxBarWidth]);
+
+   // svg container element
+  var chart = d3.select('#chart').append("svg")
+  .attr('width', maxBarWidth + barLabelWidth + valueLabelWidth)
+  .attr('height', gridLabelHeight + gridChartOffset + sortedData.length * barHeight);
+
+  // bar labels
+  var labelsContainer = chart.append('g')
+  .attr('transform', 'translate(' + (barLabelWidth - barLabelPadding) + ',' + (gridLabelHeight + gridChartOffset) + ')'); 
+
+  labelsContainer.selectAll('text').data(sortedData).enter().append('text')
+  .attr('y', yText)
+  .attr('stroke', 'none')
+  .attr('fill', 'black')
+  .attr("dy", ".35em") // vertical-align: middle
+  .attr('text-anchor', 'end')
+  .text(barLabel);
+
+  //post bars
+  var postBarsContainer = chart.append('g')
+  .attr('transform', 'translate(' + barLabelWidth + ',' + (gridLabelHeight + gridChartOffset) + ')'); 
+
+  postBarsContainer.selectAll("rect").data(sortedData).enter().append("rect")
+  .attr('y', y)
+  .attr('height', yScale.rangeBand())
+  .attr('width', function(d) { return x(postValue(d)); })
+  .attr('stroke', 'darkgrey')
+  .attr('fill', 'steelblue');
+
+  //comment bars
+  var commentBarsContainer = chart.append('g')
+  .attr('transform', 'translate(' + barLabelWidth + ',' + (gridLabelHeight + gridChartOffset) + ')'); 
+
+  // comment bars
+  commentBarsContainer.selectAll("rect").data(sortedData).enter().append("rect")
+  .attr('y', y)
+  .attr('x', function(d) { return x(postValue(d)); })
+  .attr('height', yScale.rangeBand())
+  .attr('width', function(d) { return x(commentValue(d)); })
+  .attr('stroke', 'grey')
+  .attr('fill', 'cornflowerblue');
+
+  // post value labels
+  postBarsContainer.selectAll("text").data(sortedData).enter().append("text")
+  .attr("x", function(d) { return x(postValue(d)); })
+  .attr("y", yText)
+  .attr("dx", -2) // padding-left
+  .attr("dy", ".35em") // vertical-align: middle
+  .attr("text-anchor", "end") // text-align: right
+  .attr("fill", "steel")
+  .attr("stroke", "none")
+  .text(function(d) {if (postValue(d) == 0){return "";}else{return d3.round(postValue(d), 2);}});
+
+  // comment value labels
+  commentBarsContainer.selectAll("text").data(sortedData).enter().append("text")
+  .attr("x", function(d) { return x(barValue(d)); })
+  .attr("y", yText)
+  .attr("dx", -2) // padding-left
+  .attr("dy", ".35em") // vertical-align: middle
+  .attr("text-anchor", "end") // text-align: right
+  .attr("fill", "lightgrey")
+  .attr("stroke", "none")
+  .text(function(d) { if (commentValue(d) == 0){return "";}else{return d3.round(commentValue(d), 2); }});
+
+  // start line
+  postBarsContainer.append("line")
+  .attr("y1", -gridChartOffset)
+  .attr("y2", yScale.rangeExtent()[1] + gridChartOffset)
+  .style("stroke", "#000");
+
+});
+
+</script>
+<style>
+body{
+  font-family:Avenir,"Lucida Sans",sans-serif;
+  font-size:0.8em;
+}
+
+.chart div {
+   font: 10px sans-serif;
+   background-color: steelblue;
+   text-align: right;
+   padding: 3px;
+   margin: 1px;
+   color: white;
+}
+
+</style>
+
+</head>
+<body>
+<div id="chart">
+</div>
+</body>
+</html>
