@@ -1,0 +1,3436 @@
+{
+	"data": [{
+		"from": {
+			"name": "Ted McDonald",
+			"id": "238965063185783"
+		},
+		"message": "I did a histogram out of the post data. Most people post 0-2 times, with a very consistent distribution between no posts and two posts. After two posts, contribution drops suddenly to almost zero.",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/s130x130\/14729364_238942203188069_3107732488374400324_n.jpg?oh=05fa87a0c0aae31c375443fc8be965dc&oe=58A38732",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=238942203188069&set=gm.682202458611781&type=3",
+		"id": "667329996765694_682202458611781"
+	}, {
+		"from": {
+			"name": "Mallory Kester",
+			"id": "10203864902000998"
+		},
+		"message": "Here is a graph on the average word count of  posts and average word count of comments. I learned that the word counts were not significantly different when people make a comment versus a post. Comments typically had fewer words per post (33) while posts had more on average (41).",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/s130x130\/14695321_10208587854751865_8265182250701368156_n.jpg?oh=095ad62610fc4f1fbcc6158727b88482&oe=588D8771",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=10208587854751865&set=gm.682155571949803&type=3",
+		"id": "667329996765694_682155571949803",
+		"likes": {
+			"data": [{
+				"id": "10204688917648972",
+				"name": "Michael Fern"
+			}, {
+				"id": "214500245",
+				"name": "Sean Munson"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "MTAyMDQ2ODg5MTc2NDg5NzIZD",
+					"after": "MjE0NTAwMjQ1"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Sheena White",
+			"id": "10201824038863757"
+		},
+		"message": "I created two graphs: one showing the top 5 words used in posts, and one showing the top 5 words used in comments. What I\u2019ve learned from these two graphs is that they are very similar: both have the words \u2018virtual\u2019, \u2018file\u2019, and \u2018machine\u2019. Also, that people are more polite when writing comments because the word \u2018thanks\u2019 shows up 13 times more than in the posts. :D",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/s130x130\/14680573_10207378133312647_7173324467316453736_n.jpg?oh=ff8c6c3d5b005d721839ac75a25aaa2f&oe=58AC5C00",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=10207378133312647&set=gm.682138728618154&type=3",
+		"id": "667329996765694_682138728618154",
+		"likes": {
+			"data": [{
+				"id": "10204688917648972",
+				"name": "Michael Fern"
+			}, {
+				"id": "214500245",
+				"name": "Sean Munson"
+			}, {
+				"id": "715819371809182",
+				"name": "Mackenna Lees"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "MTAyMDQ2ODg5MTc2NDg5NzIZD",
+					"after": "NzE1ODE5MzcxODA5MTgy"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Ted McDonald",
+			"id": "238965063185783"
+		},
+		"message": "What are we supposed to do about hw4example.json? It does not seem to have any content.",
+		"id": "667329996765694_682081195290574",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-24T21:25:42+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "There should be content (a list of dictionaries). If your file is empty, check Homeworks_OriginalVersion to see if there is content there. If there is, you can copy it back into the file in your working directory.",
+				"id": "682087751956585"
+			}, {
+				"created_time": "2016-10-24T22:24:32+0000",
+				"from": {
+					"name": "Ted McDonald",
+					"id": "238965063185783"
+				},
+				"message": "My working file must have been overwritten. The original does indeed have content. Thanks!",
+				"id": "682113918620635"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamd5TURnM056VXhPVFUyTlRnMU9qRTBOemN6TkRRek5EST0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamd5TVRFek9URTROakl3TmpNMU9qRTBOemN6TkRjNE56ST0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Brian Nindo",
+			"id": "10204273121698445"
+		},
+		"message": "Not sure if anyone else is having this issue, but I wasn't in class last Thursday so I'm trying to download the template for the sketches, however, it keeps telling me it's locked or unavailable. Is this happening to anyone else, or does canvas just not like me?",
+		"id": "667329996765694_682091418622885",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-24T21:42:39+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Just toggled the published setting off\/on again - can you try again? https:\/\/canvas.uw.edu\/files\/38045503\/download?download_frd=1",
+				"id": "682091951956165"
+			}, {
+				"created_time": "2016-10-24T21:45:45+0000",
+				"from": {
+					"name": "Brian Nindo",
+					"id": "10204273121698445"
+				},
+				"message": "Great that works! Thank you Sean!",
+				"id": "682092818622745"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamd5TURreE9UVXhPVFUyTVRZAMU9qRTBOemN6TkRVek5qQT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamd5TURreU9ERTROakl5TnpRMU9qRTBOemN6TkRVMU5EVT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Molly Donohue",
+			"id": "10153145266504727"
+		},
+		"message": "If I was not able to make it to class on Thursday, what can I turn in instead of the three sketches for P0 tomorrow?",
+		"id": "667329996765694_682070705291623",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-24T20:48:07+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Yes!",
+				"id": "682071015291592"
+			}, {
+				"created_time": "2016-10-24T21:08:25+0000",
+				"from": {
+					"name": "Mackenna Lees",
+					"id": "715819371809182"
+				},
+				"message": "Not sure if Sean read that right. I think the blank canvases for the sketches are on canvas, you could probably print those out and do the sketches on your own!",
+				"id": "682079968624030"
+			}, {
+				"created_time": "2016-10-24T21:11:59+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Oh, yes - sorry; I missed the \"what\". The templates are on canvas (or you can use blank pages).  \n\nWe drew APIs in class, so you can use the list on Canvas or draw on your own research into various APIs (e.g., from P0).",
+				"id": "682081071957253"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamd5TURjeE1ERTFNamt4TlRreU9qRTBOemN6TkRJd09EZAz0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamd5TURneE1EY3hPVFUzTWpVek9qRTBOemN6TkRNMU1Uaz0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Anushree Shukla",
+			"id": "10205711309768098"
+		},
+		"message": "Take a break from studying and come join us at our first general meeting! Learn more about what we do and how to get involved! Can't wait to meet everyone! P.S we'll have food!",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/c81.0.130.130\/p130x130\/14650689_1620440261589323_757020467279582495_n.jpg?oh=358fd7161f5fb1b3a5e5ed849f11c91c&oe=58A0812D",
+		"link": "https:\/\/www.facebook.com\/events\/1644041015887918\/",
+		"id": "667329996765694_682014645297229",
+		"likes": {
+			"data": [{
+				"id": "214500245",
+				"name": "Sean Munson"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "MjE0NTAwMjQ1",
+					"after": "MjE0NTAwMjQ1"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Mallory Kester",
+			"id": "10203864902000998"
+		},
+		"message": "I am working on part one of the feed processor. When I try to call the nested dictionary I keep getting a key error. I am not entirely sure why since I have a default value when I create my nested dictionary. I've tested to see if dictionary[person] works in the new if statement, and it does. Am I calling the nested dictionary wrong? Ideas\/suggestions?",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/q89\/s130x130\/14725623_10208576388065205_6827862799421708209_n.jpg?oh=8da1f2f08a5cfa6a6ced826501b0e6b9&oe=58A3020D",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=10208576388065205&set=gm.681338848698142&type=3",
+		"id": "667329996765694_681338848698142",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-23T17:28:53+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Hi Mallory -- the KeyError: 0 means that you are passing in 0 as a key in that code (probably as postCount but possibly also person) and it can't find a corresponding value. \n\nI'd approach troubleshooting this by:\n1) printing the dictionary \n2) printing person and postCount\nand making sure they are each what you expect them to be. My guess is that you're passing in the count (0) when you want to be passing in the key that lets you access the count.",
+				"id": "681343038697723"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamd4TXpRek1ETTROamszTnpJek9qRTBOemN5TkRNM016UT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamd4TXpRek1ETTROamszTnpJek9qRTBOemN5TkRNM016UT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Caleb Park",
+			"id": "10205414821924195"
+		},
+		"message": "For the last question about counting the words in posts and comments (hw4-feedprocessor); are we suppose to count the blanks as well? Because I am having this in my dictionary \" {'': {'posts': 11, 'comments': 65}\".",
+		"id": "667329996765694_681441795354514",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-23T21:27:47+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "These should be removed for this assignment -- I removed them before writing my CSV file.",
+				"id": "681443775354316"
+			}, {
+				"created_time": "2016-10-23T21:31:18+0000",
+				"from": {
+					"name": "Caleb Park",
+					"id": "10205414821924195"
+				},
+				"message": "ok Thanks!",
+				"id": "681444565354237"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamd4TkRRek56YzFNelUwTXpFMk9qRTBOemN5TlRnd05qYz0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamd4TkRRME5UWTFNelUwTWpNM09qRTBOemN5TlRneU56az0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Shaunte Smith",
+			"id": "10154003997328957"
+		},
+		"message": "How do i stop printing \"None\" at the end of most of my print statements?",
+		"id": "667329996765694_681439582021402",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-23T21:21:03+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "For these, double check whether your *function* is doing the printing as well, in which case you may have an extra print statement that is printing the implicit return value of the function (none).\n\nFor example:\ndef printSquare(x):\n      print x*x\n\nprint printSquare(2)\n\nwill print:\n4\nNone\n\nbecause the print happens in the function, and then the print in the print printSquare(2) line prints the None returned by printSquare()",
+				"id": "681440722021288"
+			}, {
+				"created_time": "2016-10-23T21:21:32+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "(facebook removed my indentation - print x*x should be indented)",
+				"id": "681440895354604"
+			}, {
+				"created_time": "2016-10-23T21:22:02+0000",
+				"from": {
+					"name": "Shaunte Smith",
+					"id": "10154003997328957"
+				},
+				"message": "Boom, knowledge aquired",
+				"id": "681441065354587"
+			}, {
+				"created_time": "2016-10-23T21:22:09+0000",
+				"from": {
+					"name": "Shaunte Smith",
+					"id": "10154003997328957"
+				},
+				"message": "thanks. fixed it",
+				"id": "681441088687918"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamd4TkRRd056SXlNREl4TWpnNE9qRTBOemN5TlRjMk5qTT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamd4TkRReE1EZAzROamczT1RFNE9qRTBOemN5TlRjM016QT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Shaunte Smith",
+			"id": "10154003997328957"
+		},
+		"message": "so yay... I got this error again? Luckily I started committing everything, all the time. Why does this keep happening?",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/s130x130\/14724638_10155411070948957_7007963491066222460_n.jpg?oh=7dacefc33995a98a0cedc0c342f1f757&oe=58A5E64B",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=10155411070948957&set=gm.681396335359060&type=3",
+		"id": "667329996765694_681396335359060",
+		"likes": {
+			"data": [{
+				"id": "715819371809182",
+				"name": "Mackenna Lees"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "NzE1ODE5MzcxODA5MTgy",
+					"after": "NzE1ODE5MzcxODA5MTgy"
+				}
+			}
+		},
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-23T19:15:18+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Are your files still there, outside of eclipse? If you use terminal to check or if you go to your ~\/Homeworks folder in the file browser? \n\nSheena was also having a problem with projects disappearing in Eclipse. We were finally able to work it out (I think) by removing her Eclipse workspace, the course files repository, and rebuilding them. We can take a look in class or office hours, but for now I want to make sure you are able to work on the homework. \n\nIf Eclipse is totally failing you, as a temporary work around -- assuming files are still there -- you can open files from the file browser (right click on a .py file, select Open in Text Editor) and run them from terminal.",
+				"id": "681398205358873"
+			}, {
+				"created_time": "2016-10-23T19:20:32+0000",
+				"from": {
+					"name": "Sheena White",
+					"id": "10201824038863757"
+				},
+				"message": "Yes, I believe it's fixed now! Although I had the same thing happen to me again yesterday :\/ I was able to fix it myself somehow and able to push my hw into my repository. What I think I have been doing wrong is \"Powering Off\" the vm instead of \"Shutting Down\" the system. Seems odd, but every time I've shut it down instead of \"power off\" I have all my work folders on the left, and I'm able to commit\/push. I've never lost any of my homeworks though, they were still in my folder saved. They only \"disappeared\" from eclipse and I had to add the project folders to eclipse again.",
+				"id": "681400935358600"
+			}, {
+				"created_time": "2016-10-23T19:32:20+0000",
+				"from": {
+					"name": "Shaunte Smith",
+					"id": "10154003997328957"
+				},
+				"message": "I have all the tools to get my work back but its getting tiring having to load in my work every time after I shut off my computer. I lost all of my homework 4 stuff yesterday and had to spend all that time redoing the work. I just need it to work consistently",
+				"id": "681403925358301"
+			}, {
+				"created_time": "2016-10-23T19:42:41+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "If your files are disappearing from your file system, we should probably rebuild your virtual machine (or replace it with a fresh one) -- occasionally, they'll get in this loop Sheena describes of disappearing from Eclipse, but disappearing from your actual file system is new. We definitely don't want you to be stuck redoing work.",
+				"id": "681408188691208"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamd4TXprNE1qQTFNelU0T0Rjek9qRTBOemN5TlRBeE1Uaz0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamd4TkRBNE1UZAzROamt4TWpBNE9qRTBOemN5TlRFM05qRT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Mike Eacker",
+			"id": "967424480018952"
+		},
+		"message": "When processing the word frequencies for the freq.csv there's two pieces of text that seem to produce undesirable results (see images). I'm guessing this is due to parenthesis sandwiching a comma (see excerpts below) in the hw4feed.txt. Do we need to address this issue?\n\nExcerpts:\nwordFreq(\"hw3feed.txt\",'post')\nwordFreq(\"hw3feed.txt\",'post')[\"anyone\"]",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/q82\/s130x130\/14657496_1180758568685541_4604820462048134187_n.jpg?oh=5766bea172e5de47500e2865940a5577&oe=58957B7E",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=1180758568685541&set=gm.680802055418488&type=3",
+		"id": "667329996765694_680802055418488",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-22T22:00:46+0000",
+				"from": {
+					"name": "Scott Smith",
+					"id": "10202973615294213"
+				},
+				"message": "I handled this by (certainly over)using the replace function.\n\nword = word.replace('(', '').replace(')', '').replace(\"\\\"\", '').replace(\"'\", '').replace(\",\", '')\n\nEDIT: See below for a better solution.",
+				"id": "680808755417818"
+			}, {
+				"created_time": "2016-10-22T22:06:16+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "We won't take off if you have unescaped commas, but we might as well use this to have a bit of an example in data cleaning.\n\nIn CSV files, you can escape a comma by enclosing the whole field (e.g., our \"word\") in quotes. So our line would look something like:\n\"word\",postcount,commentcount\n\nThat, however, causes a new problem -- since the same lines have quotes in them as well. You can escape quotes in CSV files by using another quote before it. So if we had a word: someFunc(\"some string\"), we could escape those by using two quotes: someFunc(\"\"somestring\"\")\n\nor, to put it all together, the line, if opened in a text editor, would look like:\n\"someFunc(\"\"somestring\"\")\",0,1 \n\nThe code for replacing double quotes with double double quotes is: \nword.replace(\"\\\"\",\"\\\"\\\"\")",
+				"id": "680833405415353"
+			}, {
+				"created_time": "2016-10-23T16:43:34+0000",
+				"from": {
+					"name": "Mike Eacker",
+					"id": "967424480018952"
+				},
+				"message": "Got it, thanks!",
+				"id": "681328192032541"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamd3T0RBNE56VTFOREUzT0RFNE9qRTBOemN4TnpNMk5EWT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamd4TXpJNE1Ua3lNRE15TlRReE9qRTBOemN5TkRFd01UUT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Leena Choi",
+			"id": "788621571190081"
+		},
+		"message": "Quick question about assignment P1!\nI left class early for Blink UX event last Thursday and I accidentally left the sketches I did in class. Is it okay if I re-write the sketches & answers to the three questions (Who will use it, What does it do for them, What API does it use) on a different sheet of paper, and submit it?",
+		"id": "667329996765694_680998142065546",
+		"likes": {
+			"data": [{
+				"id": "715819371809182",
+				"name": "Mackenna Lees"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "NzE1ODE5MzcxODA5MTgy",
+					"after": "NzE1ODE5MzcxODA5MTgy"
+				}
+			}
+		},
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-23T04:37:57+0000",
+				"from": {
+					"name": "Oorja Chowdhary",
+					"id": "721163981323122"
+				},
+				"message": "They have the pdfs of the papers on canvas I think, so you can probably print em out and write on those!",
+				"id": "680998385398855"
+			}, {
+				"created_time": "2016-10-23T04:38:08+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Yup, that's fine. The assignment on Canvas links to the template if that helps.",
+				"id": "680998418732185"
+			}, {
+				"created_time": "2016-10-23T04:38:28+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Oorja was faster than me :-)",
+				"id": "680998592065501"
+			}, {
+				"created_time": "2016-10-23T04:41:45+0000",
+				"from": {
+					"name": "Leena Choi",
+					"id": "788621571190081"
+				},
+				"message": "Hahah thanks Oorja and Sean!! :D",
+				"id": "680999328732094"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamd3T1RrNE16ZAzFNems0T0RVMU9qRTBOemN4T1RjME56Yz0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamd3T1RrNU16STROek15TURrME9qRTBOemN4T1RjM01EVT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Rabea Baroudi",
+			"id": "10205555232617860"
+		},
+		"message": "For the HW4 Feed Processor, on the part where we write to a csv file (saveContributors), are we supposed to print it out as well or not? \n(Just for clarification because the spec shows it to be printed but the directions in the HW .py file doesn't ask for it to be printed)",
+		"id": "667329996765694_680892778742749",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-23T00:28:11+0000",
+				"from": {
+					"name": "Molly Donohue",
+					"id": "10153145266504727"
+				},
+				"message": "I believe you only need to save the contents of saveContributors, and that the spec shows the printed lines for your debugging purposes. (I printed the lines as shown in the spec to make sure it looked the same, then modified the function to save to .csv)",
+				"id": "680895512075809"
+			}, {
+				"created_time": "2016-10-23T00:34:07+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "No need to print!",
+				"id": "680896745409019"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamd3T0RrMU5URXlNRGMxT0RBNU9qRTBOemN4T0RJME9URT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamd3T0RrMk56UTFOREE1TURFNU9qRTBOemN4T0RJNE5EZAz0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Mike Eacker",
+			"id": "967424480018952"
+		},
+		"message": "The chart I produced compares the contributions of the students and teaching staff in the Facebook feed. It shows the total number of posts and comments made by their respective groups. This simple comparison shows that the vast majority of the posts are being made by the students. Support, in the form of comments, is being given at similar rates by both group. This show that the students are generating the conversations and both teachers and students appear to be sharing in the effort to resolve issues.",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/s130x130\/14681796_1180772245350840_4470180096938216629_n.jpg?oh=37fc6dabc1e40a0ab99a4073272ac6b1&oe=589AB1F4",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=1180772245350840&set=gm.680803098751717&type=3",
+		"id": "667329996765694_680803098751717",
+		"likes": {
+			"data": [{
+				"id": "732173280148141",
+				"name": "Emily Wong"
+			}, {
+				"id": "1011430915537616",
+				"name": "Kanishk Shukla"
+			}, {
+				"id": "400092710188284",
+				"name": "Lauren Antilla"
+			}, {
+				"id": "548730186640",
+				"name": "Chia-Fang Chung"
+			}, {
+				"id": "10202973615294213",
+				"name": "Scott Smith"
+			}, {
+				"id": "839998299357792",
+				"name": "ShinYoung Lucia Choi"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "NzMyMTczMjgwMTQ4MTQx",
+					"after": "ODM5OTk4Mjk5MzU3Nzky"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Madison Holbrook",
+			"id": "1041607862538159"
+		},
+		"message": "I'm getting this error when I try to commit... does anyone know the problem?",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/s130x130\/14732381_1337607146271561_6957277104116105342_n.jpg?oh=4d29c686484cdc59cbf495d83b075b8d&oe=589C31E8",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=1337607146271561&set=gm.680337678798259&type=3",
+		"id": "667329996765694_680337678798259",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-22T03:47:15+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "I'm not sure what's going on here, but this seems like an error specific to Eclipse. Are you able to commit and push from terminal?",
+				"id": "680366002128760"
+			}, {
+				"created_time": "2016-10-22T03:54:03+0000",
+				"from": {
+					"name": "Madison Holbrook",
+					"id": "1041607862538159"
+				},
+				"message": "I'm not sure... I'll try",
+				"id": "680370522128308"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamd3TXpZAMk1EQXlNVEk0TnpZAd09qRTBOemN4TURnd016WT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamd3TXpjd05USXlNVEk0TXpBNE9qRTBOemN4TURnME5ETT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Shaunte Smith",
+			"id": "10154003997328957"
+		},
+		"message": "So I think I lost everything... Im using the virtual box on a pc. What should I do?",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/s130x130\/14670886_10155403697093957_3921808141355289044_n.jpg?oh=db90e8db7615316fa540c9715fa7476d&oe=58A91444",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=10155403697093957&set=gm.680183555480338&type=3",
+		"id": "667329996765694_680183555480338",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-21T20:09:49+0000",
+				"from": {
+					"name": "Chia-Fang Chung",
+					"id": "548730186640"
+				},
+				"message": "Try File->Import->General->Existing projects into workspace. Your projects should be located at \/Home\/hcde310\/Homeworks; Lecture codes and solutions would be \/Home\/hcde310\/CourseFiles\/hcde310a16; Original homework files would be \/Home\/hcde310\/Homeworks_OriginalVersion",
+				"id": "680187488813278"
+			}, {
+				"created_time": "2016-10-21T20:13:24+0000",
+				"from": {
+					"name": "Shaunte Smith",
+					"id": "10154003997328957"
+				},
+				"message": "no projects found to import...",
+				"id": "680189655479728"
+			}, {
+				"created_time": "2016-10-21T20:16:21+0000",
+				"from": {
+					"name": "Shaunte Smith",
+					"id": "10154003997328957"
+				},
+				"message": "got it. all my work is gone so i'll have to start over with this homework. thanks",
+				"id": "680191542146206"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamd3TVRnM05EZAzRPREV6TWpjNE9qRTBOemN3T0RBMU9Eaz0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamd3TVRreE5UUXlNVFEyTWpBMk9qRTBOemN3T0RBNU9ERT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Mallory Kester",
+			"id": "10203864902000998"
+		},
+		"message": "Im working on part 2 of the feed processor. I keep getting this error. I think its because the f.next() function is causing an error at the end of the file when there isnt a next line to read. I am not entirely sure how to solve this error, or if I am approaching this problem correctly. Any ideas\/suggestions?",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/q92\/s130x130\/14729224_10208554217350951_5570910282813468800_n.jpg?oh=499a86b8f28ad85e53878dc34bf654ee&oe=589E9A5D",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=10208554217350951&set=gm.679794675519226&type=3",
+		"id": "667329996765694_679794675519226",
+		"likes": {
+			"data": [{
+				"id": "214500245",
+				"name": "Sean Munson"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "MjE0NTAwMjQ1",
+					"after": "MjE0NTAwMjQ1"
+				}
+			}
+		},
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-21T02:48:59+0000",
+				"from": {
+					"name": "Samuel San Nicolas",
+					"id": "10202849723660407"
+				},
+				"message": "Are you using f.next () to get the next word in the line? Why not just for-in through it and pass in the current word so the function stops iterating when the loop ends?",
+				"id": "679795882185772"
+			}, {
+				"created_time": "2016-10-21T02:50:49+0000",
+				"from": {
+					"name": "Mallory Kester",
+					"id": "10203864902000998"
+				},
+				"message": "I was using f.next to get the next line in the document, but I will try to use your advice",
+				"id": "679796285519065"
+			}, {
+				"created_time": "2016-10-21T02:55:48+0000",
+				"from": {
+					"name": "Mallory Kester",
+					"id": "10203864902000998"
+				},
+				"message": "Thank you Samuel! Your adviced helped me solve my problem!",
+				"id": "679800155518678"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamM1TnprMU9EZA3lNVGcxTnpjeU9qRTBOemN3TVRneE16az0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamM1T0RBd01UVTFOVEU0TmpjNE9qRTBOemN3TVRnMU5Eaz0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Karena Vongampai",
+			"id": "10207694040739044"
+		},
+		"message": "Quick Question About Lists:\nIf I'm performing append and remove on a list, can I guarantee that the list will be organized in a first in first in first out format?\n\nExample:\nlist.append(\"x\")\nlist.append(\"y\")\nI can expect list = [\"x\", \"y\"] ?",
+		"id": "667329996765694_679124172252943",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-19T20:26:30+0000",
+				"from": {
+					"name": "Alex Gilbert",
+					"id": "10203810435853147"
+				},
+				"message": "yep! the order stays consistent!",
+				"id": "679124658919561"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamM1TVRJME5qVTRPVEU1TlRZAeE9qRTBOelk1TURnM09URT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamM1TVRJME5qVTRPVEU1TlRZAeE9qRTBOelk1TURnM09URT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Michael Fern",
+			"id": "10204688917648972"
+		},
+		"message": "Come to office hours tomorrow\n\nWednesday office hours are usually slower so if you need a little extra help wrangling up those dinosaurs ;) please stop by \n \n12:00-1:00 Michael ~ Student lounge\n1:45-3:30 Sean ~ Office in room 423\n3:30-4:30 Alex ~ Student lounge",
+		"id": "667329996765694_678689038963123",
+		"likes": {
+			"data": [{
+				"id": "715819371809182",
+				"name": "Mackenna Lees"
+			}, {
+				"id": "10205711309768098",
+				"name": "Anushree Shukla"
+			}, {
+				"id": "839998299357792",
+				"name": "ShinYoung Lucia Choi"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "NzE1ODE5MzcxODA5MTgy",
+					"after": "ODM5OTk4Mjk5MzU3Nzky"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Nathan Young",
+			"id": "10152912249594810"
+		},
+		"message": "I'm having trouble running my .py files and getting the console to output anything. Here's the current error I get",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/s130x130\/14713745_10154643659344810_9156381688652382_n.jpg?oh=81205f63639442bb6d6ce22d89504f9e&oe=588B48BB",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=10154643659344810&set=gm.678074175691276&type=3",
+		"id": "667329996765694_678074175691276",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-17T23:19:50+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "This is a new error for me, and unfortunately I only have my phone with me today so I can't try to reproduce it.\n\nIf no one else spots the cause, you can also run the programs at terminal, e.g.:\ncd ~\/Homeworks\/hw3\/\npython hw3feedprocessor.py\n\nNot quite as convenient but should get the job done",
+				"id": "678082365690457"
+			}, {
+				"created_time": "2016-10-17T23:34:00+0000",
+				"from": {
+					"name": "Michael Fern",
+					"id": "10204688917648972"
+				},
+				"message": "I'm also unfamiliar with this error unfortunately.  \n\nSome googling suggests that if you reimport the project it might reset the problem for you\n\n> Right click to delete the project\n> Reimport the project by going file > import \n\nIf that doesn't work can you screen shot what appears when you highlight 'run as' in the drop down menu next to the green run button?",
+				"id": "678087709023256"
+			}, {
+				"created_time": "2016-10-17T23:41:09+0000",
+				"from": {
+					"name": "Michael Fern",
+					"id": "10204688917648972"
+				},
+				"message": "Maybe working with Sean's work around is best for now, we can always take a look at it during class tomorrow",
+				"id": "678090042356356"
+			}, {
+				"created_time": "2016-10-18T07:40:32+0000",
+				"from": {
+					"name": "Mallory Kester",
+					"id": "10203864902000998"
+				},
+				"message": "Under the green run button there is a tab. Click the tab and select run as Python file or something along the lines of that. I have to do that with every file that I haven't run before. Infoundnyou only have to do that once and it'll work like normal again",
+				"id": "678219115676782"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamM0TURneU16WTFOamt3TkRVM09qRTBOelkzTkRZAek9UQT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamM0TWpFNU1URTFOamMyTnpneU9qRTBOelkzTnpZAME16ST0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Sheena White",
+			"id": "10201824038863757"
+		},
+		"message": "For part1 #9, it says \"The keys and values you print should be separated only by commas (there should be no spaces).\" and also \"Your output should match the screenshot in the PDF document,\" but the pdf document shows a space after the comma and before the value. Could someone clarify whether there's supposed to be a space there or not?",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/s130x130\/14671362_10207317302911925_6796065030887740955_n.jpg?oh=94d4d296952fa2818999dc316ce8373c&oe=589411D3",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=10207317302911925&set=gm.678102799021747&type=3",
+		"id": "667329996765694_678102799021747",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-18T00:11:53+0000",
+				"from": {
+					"name": "Kelsey Fukuda",
+					"id": "10203662867319412"
+				},
+				"message": "I think he said that earlier that spaces after the comma should be fine and that the spaces in the answer key were by accident",
+				"id": "678103245688369"
+			}, {
+				"created_time": "2016-10-18T00:14:19+0000",
+				"from": {
+					"name": "Sheena White",
+					"id": "10201824038863757"
+				},
+				"message": "Oh okay, I thought I probably just missed hearing something. Thanks!",
+				"id": "678104382354922"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamM0TVRBek1qUTFOamc0TXpZANU9qRTBOelkzTkRrMU1UTT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamM0TVRBME16ZA3lNelUwT1RJeU9qRTBOelkzTkRrMk5Uaz0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Lulu Sun",
+			"id": "777618732299228"
+		},
+		"message": "Will we get marked down if our code is redundant?",
+		"id": "667329996765694_677984969033530",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-17T18:50:47+0000",
+				"from": {
+					"name": "Michael Fern",
+					"id": "10204688917648972"
+				},
+				"message": "Redundant code will not be marked down",
+				"id": "677986775700016"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamMzT1RnMk56YzFOekF3TURFMk9qRTBOelkzTXpBeU5EYz0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamMzT1RnMk56YzFOekF3TURFMk9qRTBOelkzTXpBeU5EYz0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Mallory Kester",
+			"id": "10203864902000998"
+		},
+		"message": "Hello! I am working on part 8 of the FeedProcessor assignment. I keep getting this error and do not quite understand how the test lines of code work with the code I have written. In particular, I am confused how the word [\"anyone\"] gets linked with the function without parameters in the function.",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/q92\/s130x130\/14666051_10208509755639436_3433306521540142142_n.jpg?oh=9c44544205ac3602017beb407f2ed97f&oe=58A2768F",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=10208509755639436&set=gm.677124072452953&type=3",
+		"id": "667329996765694_677124072452953",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-16T07:35:56+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Hi Mallory - in this line of code, the return value of wordFreq(\"hw3feed.txt\",'post') gets substituted in. Your function, if working properly, will return a dictionary (and from this error, it looks like it is).\n\nwordFreq(\"hw3feed.txt\",'post')[\"anyone\"] then refers to the value corresponding to \"anyone\" in that dictionary. The line compares that value with 9 to see if it matches. There is also a second comparison, for eclipse and 5.\n\nFrom the error, it looks like the returned dictionary does not contain the key \"anyone.\"  If I were debugging, the first place I'd start is to call wordFreq(\"hw3feed.txt\",\"post\") and print the return value to see if it looks like what I expect, i.e., add a line before the test lines:\nprint wordFreq(\"hw3feed.txt\",\"post\")",
+				"id": "677135442451816"
+			}, {
+				"created_time": "2016-10-16T19:52:31+0000",
+				"from": {
+					"name": "Pooja Ghelani",
+					"id": "1409497779060705"
+				},
+				"message": "I get the same error, I did what you suggested and called the function to print the return value. All I get is an empty dictionary",
+				"id": "677440829087944"
+			}, {
+				"created_time": "2016-10-16T20:03:57+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "In that case, my next step would be to add some print statements in my for loop to make sure it is actually iterating through the file. \n\nIf it isn't, the next thing I would check is whether I'm re-opening the file *within* the function (recall that each time we read the file, it \"consumes\" it, so we have to re-open it)\n\nIf it is, then I'd look at the dictionary as I am building it (inside the for loop). Is it adding things? If not, can I figure out why?",
+				"id": "677444195754274"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamMzTVRNMU5EUXlORFV4T0RFMk9qRTBOelkyTURNek5UWT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamMzTkRRME1UazFOelUwTWpjME9qRTBOelkyTkRneU16Yz0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Pooja Ghelani",
+			"id": "1409497779060705"
+		},
+		"message": "I keep getting this error when I run part 8. Would anyone be able to tell me what it means?",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/q87\/s130x130\/14708163_1421996571144159_448866002473507503_n.jpg?oh=70c7d8092a3161d44b1f1fd4537efb66&oe=589908C5",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=1421996571144159&set=gm.677420965756597&type=3",
+		"id": "667329996765694_677420965756597",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-16T19:23:29+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Hi Pooja -- I think this is referring to the variable \"file\" -- which corresponds to \u003Ctype 'file'> in Python. Double check your variable and a parameter names for the file name \/ file handle in wordFreq()",
+				"id": "677423449089682"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamMzTkRJek5EUTVNRGc1TmpneU9qRTBOelkyTkRVNE1UQT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamMzTkRJek5EUTVNRGc1TmpneU9qRTBOelkyTkRVNE1UQT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "ShinYoung Lucia Choi",
+			"id": "839998299357792"
+		},
+		"message": "(Typical) Office Hours: \nMonday \n12:00-1:00  Michael\n3:30-5:00    Alex (until 4:30), Christina \n\nTuesday \n1:30-2:30   Lucia, John\n\nWednesday \n12:00-1:00 Michael\n1:45-3:30   Sean\n3:30-4:30   Alex\n\nThursday \n10:00-11:00  Christina\n12:00-1:00   John\n1:30-2:30     Lucia",
+		"id": "667329996765694_675661039265923",
+		"likes": {
+			"data": [{
+				"id": "777618732299228",
+				"name": "Lulu Sun"
+			}, {
+				"id": "732173280148141",
+				"name": "Emily Wong"
+			}, {
+				"id": "10205414821924195",
+				"name": "Caleb Park"
+			}, {
+				"id": "749585911731635",
+				"name": "Yeh-Eun Lee"
+			}, {
+				"id": "10203810435853147",
+				"name": "Alex Gilbert"
+			}, {
+				"id": "878249528884465",
+				"name": "Gabby Bilka"
+			}, {
+				"id": "548730186640",
+				"name": "Chia-Fang Chung"
+			}, {
+				"id": "10204688917648972",
+				"name": "Michael Fern"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "Nzc3NjE4NzMyMjk5MjI4",
+					"after": "MTAyMDQ2ODg5MTc2NDg5NzIZD"
+				}
+			}
+		},
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-16T17:39:52+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "These are usually in the 4th floor student lounge in Sieg, except mine are in my office (across the hall in Sieg 423B)",
+				"id": "677384122426948"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamMzTXpnME1USXlOREkyT1RRNE9qRTBOelkyTXprMU9UTT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamMzTXpnME1USXlOREkyT1RRNE9qRTBOelkyTXprMU9UTT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Madison Holbrook",
+			"id": "1041607862538159"
+		},
+		"message": "I keep getting this error, even when I indent it just goes to the next line and says there is another error. Even when I comment them all out I still get the same error but it shows up at the last line of the program.",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/s130x130\/14695524_1330765153622427_157653494446437129_n.jpg?oh=f1b4c2779c631f21397dc4daae2cddd0&oe=588F84D5",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=1330765153622427&set=gm.676907059141321&type=3",
+		"id": "667329996765694_676907059141321",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-15T20:28:34+0000",
+				"from": {
+					"name": "ShinYoung Lucia Choi",
+					"id": "839998299357792"
+				},
+				"message": "Can you screenshot or send me (310 instructors) the .py file? It might be because there's an empty loop, conditional, or function .etc that is expecting to have something inside.",
+				"id": "676908189141208"
+			}, {
+				"created_time": "2016-10-15T20:47:18+0000",
+				"from": {
+					"name": "Madison Holbrook",
+					"id": "1041607862538159"
+				},
+				"message": "It was after I played with it some more I was able to find an empty for loop. Thanks!",
+				"id": "676914162473944"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamMyT1RBNE1UZAzVNVFF4TWpBNE9qRTBOelkxTmpNek1UUT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamMyT1RFME1UWXlORGN6T1RRME9qRTBOelkxTmpRME16az0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Sheena White",
+			"id": "10201824038863757"
+		},
+		"message": "Does anyone know how to get all the folders on the left side again? The first picture shows what it looks like now, and the second picture is what I used to have there. Also, I'm not sure why I'm not able to commit\/push... I thought I had this fixed but everytime I re-open VM I have a new problem...",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/s130x130\/14713592_10207290738567833_3717493256438957090_n.jpg?oh=84e33cea4f5e3e7bb4ca9ca45f227234&oe=58AAA1A7",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=10207290738567833&set=gm.676385749193452&type=3",
+		"id": "667329996765694_676385749193452",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-15T01:13:09+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Hi Sheena - for getting the Lectures and Original Homework folders back, see #1 on this page: https:\/\/canvas.uw.edu\/courses\/1066100\/pages\/eclipse-troubleshooting\n(skipping the part about Homeworks, since it looks like that is still there)\n\nI'm not totally sure about Git. From the icons in the screenshot on the left, it looks like they are committed and up to date, in which case the message in terminal would be correct. If you look at your repository on the web, does it show the hw3 files?",
+				"id": "676386349193392"
+			}, {
+				"created_time": "2016-10-15T01:15:47+0000",
+				"from": {
+					"name": "Sheena White",
+					"id": "10201824038863757"
+				},
+				"message": "Ok I'll visit that page, thanks!",
+				"id": "676388189193208"
+			}, {
+				"created_time": "2016-10-15T01:19:22+0000",
+				"from": {
+					"name": "Sheena White",
+					"id": "10201824038863757"
+				},
+				"message": "It doesn't seem to push to my repository using terminal, although it seemed easier to use terminal in the beginning, I did try commit\/push in eclipse (Git Staging; Team > Commit...) and it worked using that, so I think I'll keep doing it that way for now!",
+				"id": "676388882526472"
+			}, {
+				"created_time": "2016-10-15T01:22:12+0000",
+				"from": {
+					"name": "Alex Gilbert",
+					"id": "10203810435853147"
+				},
+				"message": "if you still want to push using terminal, it looks like you're not adding every file to be commited, but it expects those files as well. once you navigate to the terminal, you can type \"git add .\" to add -everything- before git commit and git push",
+				"id": "676389455859748"
+			}, {
+				"created_time": "2016-10-15T01:36:13+0000",
+				"from": {
+					"name": "Sheena White",
+					"id": "10201824038863757"
+				},
+				"message": "I just got it to work, commit\/push to terminal, Thanks!",
+				"id": "676393295859364"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamMyTXpnMk16UTVNVGt6TXpreU9qRTBOelkwT1RNNU9URT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamMyTXprek1qazFPRFU1TXpZAME9qRTBOelkwT1RVek56TT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Yuliana Flores",
+			"id": "952198684868542"
+		},
+		"message": "So for some reason I have no access to Virtual Box anymore. I don't know how to go about fixing this. Can anyone help?",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/s130x130\/14691125_1176485625773179_2866209998071063138_n.jpg?oh=bc8cde0e8247d1ca2aa9c7bf0edbae60&oe=5899EE35",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=1176485625773179&set=gm.676320982533262&type=3",
+		"id": "667329996765694_676320982533262",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-14T21:54:51+0000",
+				"from": {
+					"name": "Anushree Shukla",
+					"id": "10205711309768098"
+				},
+				"message": "try restarting Linux?",
+				"id": "676321195866574"
+			}, {
+				"created_time": "2016-10-14T21:56:29+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Hi - have you moved any of the files? VirtualBox is somewhat brittle with how it handles moving any of the files.",
+				"id": "676321629199864"
+			}, {
+				"created_time": "2016-10-14T22:04:28+0000",
+				"from": {
+					"name": "John Porter",
+					"id": "10103234662382558"
+				},
+				"message": "Some students have been able to fix this issue by removing the virtual machine from the VirtualBox manager (right click on it in the list, and then 'remove') and then adding it again by double-clicking on the vbox file in your Mint directory. All of your work is contained in the vdi file, so as long as you still have that, you should be able to re-add the machine and have it pick up right where you left off. Just make sure it doesn't delete when you remove the machine, if it asks!",
+				"id": "676324182532942"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamMyTXpJeE1UazFPRFkyTlRjME9qRTBOelkwT0RJd09URT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamMyTXpJME1UZA3lOVE15T1RReU9qRTBOelkwT0RJMk5qZAz0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Caleb Park",
+			"id": "10205414821924195"
+		},
+		"message": "Do we also have to change (switch) the variable names for hw3feedprocessor.py part 4?",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/q90\/s130x130\/14702284_10209352581285718_4307137225959489372_n.jpg?oh=3f6dfe956015682dc40734a8a5d4be3e&oe=58A5CA80",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=10209352581285718&set=gm.676266109205416&type=3",
+		"id": "667329996765694_676266109205416",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-14T19:28:06+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "That'd be good -- sorry, I don't know how we missed this. (John and Chia-Fang will accept either when grading, this is our mistake.)",
+				"id": "676267019205325"
+			}, {
+				"created_time": "2016-10-14T19:28:52+0000",
+				"from": {
+					"name": "Caleb Park",
+					"id": "10205414821924195"
+				},
+				"message": "Thanks!",
+				"id": "676267219205305"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamMyTWpZAM01ERTVNakExTXpJMU9qRTBOelkwTnpNeU9EWT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamMyTWpZAM01qRTVNakExTXpBMU9qRTBOelkwTnpNek16TT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Karena Vongampai",
+			"id": "10207694040739044"
+		},
+		"message": "I've been getting this error, while running hw3feedprocessor.py the problem I'm having is specifically in part 8. I was wondering if someone could tell me what this error means",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/q91\/s130x130\/14671224_10210902572430331_7938143059548910665_n.jpg?oh=51fe2e2b9cd6f28d132837068467e18e&oe=5895FC75",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=10210902572430331&set=gm.676007392564621&type=3",
+		"id": "667329996765694_676007392564621",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-14T09:38:09+0000",
+				"from": {
+					"name": "Alex Gilbert",
+					"id": "10203810435853147"
+				},
+				"message": "hey! the error itself means that you're trying to \"get\" some data (just as array[0] would \"get\" the 1st element of the array), but the reason it's not getting anything is because your object basically doesn't exist\/have any data to pull from. in this case the if statement is trying to get ['anyone'] from your wordFreq(fname, 'post) - that means your wordFreq isn't a proper dictionary.\n\none possible solution is that you're not returning anything! if you don't return a dictionary, there is no dictionary object to get data from. if you are returning something, i would go back and check out how you set up your dictionary. hope this helps!",
+				"id": "676014869230540"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamMyTURFME9EWTVNak13TlRRd09qRTBOelkwTXpjNE9Eaz0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamMyTURFME9EWTVNak13TlRRd09qRTBOelkwTXpjNE9Eaz0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Sean Munson",
+			"id": "214500245"
+		},
+		"message": "There's a typo in hw3feedprocessor.py part 4 - I was inconsistent in variable names between comment and comments. You can just pick one.",
+		"id": "667329996765694_675732055925488",
+		"likes": {
+			"data": [{
+				"id": "839998299357792",
+				"name": "ShinYoung Lucia Choi"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "ODM5OTk4Mjk5MzU3Nzky",
+					"after": "ODM5OTk4Mjk5MzU3Nzky"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Sean Munson",
+			"id": "214500245"
+		},
+		"message": "Missing a phone? From Morgan: Someone left a phone in the student lounge.  I believe it\u2019s a student from 310.  If it's yours, get it in 428.",
+		"id": "667329996765694_675724475926246",
+		"likes": {
+			"data": [{
+				"id": "839998299357792",
+				"name": "ShinYoung Lucia Choi"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "ODM5OTk4Mjk5MzU3Nzky",
+					"after": "ODM5OTk4Mjk5MzU3Nzky"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Mike Eacker",
+			"id": "967424480018952"
+		},
+		"message": "The instructions for hw3part1.py #9 say, \"The keys # and values you print should be separated only by commas (there should be no\n# spaces).\" The image in the PDF instructions shows spaces. A clarification from someone in the teaching crew might be nice.",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/s130x130\/14650566_1169998626428202_4649504739498252435_n.jpg?oh=f73fd36077509e4476c8bb3a59c86385&oe=58908DB4",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=1169998626428202&set=gm.675189629313064&type=3",
+		"id": "667329996765694_675189629313064",
+		"likes": {
+			"data": [{
+				"id": "1107767535997618",
+				"name": "May Zhao"
+			}, {
+				"id": "715819371809182",
+				"name": "Mackenna Lees"
+			}, {
+				"id": "1011430915537616",
+				"name": "Kanishk Shukla"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "MTEwNzc2NzUzNTk5NzYxOAZDZD",
+					"after": "MTAxMTQzMDkxNTUzNzYxNgZDZD"
+				}
+			}
+		},
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-13T03:45:29+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Spaces or spaces will be fine for this part. I think they got added (autocorrect) when I copied the text into the assignment document.",
+				"id": "675190062646354"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamMxTVRrd01EWXlOalEyTXpVME9qRTBOell6TXpBek1qaz0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamMxTVRrd01EWXlOalEyTXpVME9qRTBOell6TXpBek1qaz0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Madison Holbrook",
+			"id": "1041607862538159"
+		},
+		"message": "Hey guys! I left my computer charger (apple mac) in siege student lounge around 3:30 during office hours. Did anyone happen to see it or pick it up?",
+		"id": "667329996765694_674124099419617",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-11T03:06:50+0000",
+				"from": {
+					"name": "Maria Medina",
+					"id": "800135546699902"
+				},
+				"message": "Msged you!!",
+				"id": "674138156084878"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamMwTVRNNE1UVTJNRGcwT0RjNE9qRTBOell4TlRVeU1UQT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamMwTVRNNE1UVTJNRGcwT0RjNE9qRTBOell4TlRVeU1UQT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Sheena White",
+			"id": "10201824038863757"
+		},
+		"message": "I'm not sure what happened because I was able to commit\/push earlier into my respository, but now it's not working. I was working on hw2 Part 2 and I'm getting errors when I try to commit. I deleted the hw2 files and added them again, and then had to change the hw2-exercises.py file to hw2exercises.py because it said it was invalid. Here's what happens in terminal:\nI appreciate any help!",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/s130x130\/14600928_10207256849600630_7106287449315520589_n.jpg?oh=347e86c10bded6b1fd163e0f8a998baa&oe=58ABA775",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=10207256849600630&set=gm.674098362755524&type=3",
+		"id": "667329996765694_674098362755524",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-11T01:32:25+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Hi Sheena - to help debug, did you add hw2\/* to git before or after changing file names and deleting them?",
+				"id": "674100316088662"
+			}, {
+				"created_time": "2016-10-11T01:37:46+0000",
+				"from": {
+					"name": "Sheena White",
+					"id": "10201824038863757"
+				},
+				"message": "I did it before and after I changed the names... when I exited out of everything after deleting all hw2 files, then started VirtualBox again, I went to add hw2 files using \".\/gethW.sh 2\" and when I open hw2-execises.py it says \"Invalid name for Python module: hw2-exercises (it'll not be analyzed)\"",
+				"id": "674101669421860"
+			}, {
+				"created_time": "2016-10-11T01:38:45+0000",
+				"from": {
+					"name": "Sheena White",
+					"id": "10201824038863757"
+				},
+				"message": "this time I didn't change the name, didn't work on the hw2-exercises.py file and just tried to commit but it gives me the same message",
+				"id": "674101946088499"
+			}, {
+				"created_time": "2016-10-11T01:45:15+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "My guess is that git got confused by losing track of the deleted files. \n\nIf you haven't finished hw2, it's probably best to work through that first, since you can finish that and upload a copy to Canvas without git working.\n\nFor troubleshooting, the first thing I'd try is to try a commit that notices removed files:\ngit commit -a -m \"hw2: Part 2 complete\"",
+				"id": "674104026088291"
+			}, {
+				"created_time": "2016-10-11T01:45:55+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "That may still, though, give you an error, in which case it may be easier to debug in office hours or class.",
+				"id": "674104176088276"
+			}, {
+				"created_time": "2016-10-11T02:08:06+0000",
+				"from": {
+					"name": "Sheena White",
+					"id": "10201824038863757"
+				},
+				"message": "Ok, I've already finished with the hw2-exercises.py so I'll try and figure that out... but I'm stuck now on part3: I keep getting 18 characters for test.txt instead of 22 like it says, but I still count 18 characters??",
+				"id": "674109986087695"
+			}, {
+				"created_time": "2016-10-11T02:14:00+0000",
+				"from": {
+					"name": "Sheena White",
+					"id": "10201824038863757"
+				},
+				"message": "with using end of line characters, I still only get 20, am I missing something? \nThis is splitting only whitespace:\n['This\\n']\n['is', 'our\\n']\n['test', 'file.']\n20 characters",
+				"id": "674113042754056"
+			}, {
+				"created_time": "2016-10-11T02:23:29+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Spaces are also characters - remember that split() removes the white space it splits on.",
+				"id": "674117249420302"
+			}, {
+				"created_time": "2016-10-11T02:31:38+0000",
+				"from": {
+					"name": "Sheena White",
+					"id": "10201824038863757"
+				},
+				"message": "Ok, thanks!",
+				"id": "674124062752954"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamMwTVRBd016RTJNRGc0TmpZAeU9qRTBOell4TkRrMU5EVT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamMwTVRJME1EWXlOelV5T1RVME9qRTBOell4TlRNd09UZAz0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Ian Russell",
+			"id": "10209833084922998"
+		},
+		"message": "This may be a silly question but how\/what do I turn in for HW2?",
+		"id": "667329996765694_673988066099887",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-10T20:00:15+0000",
+				"from": {
+					"name": "Mackenna Lees",
+					"id": "715819371809182"
+				},
+				"message": "turn in both .py files (hw2-exercises.py and hw2-part3.py) and a screenshot of your output while running hw2feed.text for the third part :)",
+				"id": "673988466099847"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN6T1RnNE5EWTJNRGs1T0RRM09qRTBOell4TWprMk1UVT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN6T1RnNE5EWTJNRGs1T0RRM09qRTBOell4TWprMk1UVT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Michael Fern",
+			"id": "10204688917648972"
+		},
+		"message": "Office hours tomorrow\n\n12-1pm Michael Fern\n3:30-4:30pm Alex Gilbert\n3:30-5pm Christina Chung\n\nCome by with questions and comments on homework, Git or the virtual machine!",
+		"id": "667329996765694_673666059465421",
+		"likes": {
+			"data": [{
+				"id": "117059695320455",
+				"name": "Aleah Young"
+			}, {
+				"id": "548730186640",
+				"name": "Chia-Fang Chung"
+			}, {
+				"id": "878249528884465",
+				"name": "Gabby Bilka"
+			}, {
+				"id": "10152579245661037",
+				"name": "Vrishti Bhowmik"
+			}, {
+				"id": "10205414821924195",
+				"name": "Caleb Park"
+			}, {
+				"id": "749585911731635",
+				"name": "Yeh-Eun Lee"
+			}, {
+				"id": "214500245",
+				"name": "Sean Munson"
+			}, {
+				"id": "839998299357792",
+				"name": "ShinYoung Lucia Choi"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "MTE3MDU5Njk1MzIwNDU1",
+					"after": "ODM5OTk4Mjk5MzU3Nzky"
+				}
+			}
+		},
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-10T17:43:24+0000",
+				"from": {
+					"name": "Maddie Gander",
+					"id": "10205115948166150"
+				},
+				"message": "Where are office hours?",
+				"id": "673922222773138"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN6T1RJeU1qSXlOemN6TVRNNE9qRTBOell4TWpFME1EVT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN6T1RJeU1qSXlOemN6TVRNNE9qRTBOell4TWpFME1EVT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Vrishti Bhowmik",
+			"id": "10152579245661037"
+		},
+		"message": "It was working completely fine until I was working on number 4 of HW 2 part 2. I erased the code of that part and tried to run it again, but it wouldn't run anymore. Could anyone please explain why I'm getting this error message? Why does it say \"no module named hw1. hw1\" on the console? This was not showing up before I started number 4. Thanks!",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/s130x130\/14601080_10154731859486037_179671659928787945_n.jpg?oh=6ad80130bf2b1560a009eea9ea719469&oe=58A4AC00",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=10154731859486037&set=gm.673683399463687&type=3",
+		"id": "667329996765694_673683399463687",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-10T07:28:24+0000",
+				"from": {
+					"name": "Jessie Kuo",
+					"id": "767090746705506"
+				},
+				"message": "I had that same problem last Thursday and professor Sean told me that happens to eclipse sometimes. All you have to do is comment it out with \"#\"",
+				"id": "673687139463313"
+			}, {
+				"created_time": "2016-10-10T07:34:43+0000",
+				"from": {
+					"name": "Michael Fern",
+					"id": "10204688917648972"
+				},
+				"message": "Jessie Kuo has the gist of it,\n\nThis is happening because eclipse is auto completing the import statement \"from h1.hw1 import lst\", this happens when you press tab or sometimes even automatically fills in itself. This line will is not necessary for the assignment and can be deleted completely, although commenting would work too",
+				"id": "673688302796530"
+			}, {
+				"created_time": "2016-10-10T07:55:53+0000",
+				"from": {
+					"name": "Vrishti Bhowmik",
+					"id": "10152579245661037"
+				},
+				"message": "I got it. Thanks!",
+				"id": "673692909462736"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN6TmpnM01UTTVORFl6TXpFek9qRTBOell3T0RRMU1EUT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN6TmpreU9UQTVORFl5TnpNMk9qRTBOell3T0RZAeE5UTT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Sean Munson",
+			"id": "214500245"
+		},
+		"message": "On HW2, when you go through the feed, you might have just 50 lines. That's fine! This has to do with how the last linefeed character is handled in different environments.",
+		"id": "667329996765694_672055266293167",
+		"likes": {
+			"data": [{
+				"id": "10201824038863757",
+				"name": "Sheena White"
+			}, {
+				"id": "1107767535997618",
+				"name": "May Zhao"
+			}, {
+				"id": "715819371809182",
+				"name": "Mackenna Lees"
+			}, {
+				"id": "732173280148141",
+				"name": "Emily Wong"
+			}, {
+				"id": "10153145266504727",
+				"name": "Molly Donohue"
+			}, {
+				"id": "767090746705506",
+				"name": "Jessie Kuo"
+			}, {
+				"id": "400092710188284",
+				"name": "Lauren Antilla"
+			}, {
+				"id": "10203662867319412",
+				"name": "Kelsey Fukuda"
+			}, {
+				"id": "839998299357792",
+				"name": "ShinYoung Lucia Choi"
+			}, {
+				"id": "10202849723660407",
+				"name": "Samuel San Nicolas"
+			}, {
+				"id": "10152768627339671",
+				"name": "Allyson Kline"
+			}, {
+				"id": "924976024182664",
+				"name": "Josephine Le"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "MTAyMDE4MjQwMzg4NjM3NTcZD",
+					"after": "OTI0OTc2MDI0MTgyNjY0"
+				}
+			}
+		},
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-07T14:23:45+0000",
+				"from": {
+					"name": "Kristy Chen",
+					"id": "896170230405570"
+				},
+				"message": "How about the words? I got 50 lines and 1072 words. (I am on Virtual machine.)",
+				"id": "672307152934645"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN5TXpBM01UVXlPVE0wTmpRMU9qRTBOelU0TlRBeU1qVT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN5TXpBM01UVXlPVE0wTmpRMU9qRTBOelU0TlRBeU1qVT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Mackenna Lees",
+			"id": "715819371809182"
+		},
+		"message": "In the HW2 spec, it says something about lions\/tigers in the output? Was this from last year? (6a and 6c)",
+		"id": "667329996765694_673638632801497",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-10T03:57:42+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Yes -- should have that fixed in a second; I also just realized I saved the updates incorrectly. Thanks!",
+				"id": "673639016134792"
+			}, {
+				"created_time": "2016-10-10T03:58:08+0000",
+				"from": {
+					"name": "Mackenna Lees",
+					"id": "715819371809182"
+				},
+				"message": "thank you sean!",
+				"id": "673639336134760"
+			}, {
+				"created_time": "2016-10-10T03:58:58+0000",
+				"from": {
+					"name": "Mackenna Lees",
+					"id": "715819371809182"
+				},
+				"message": "is there a good way to make sure the .py files I am submitting is the committed and changed version of the homework?",
+				"id": "673639766134717"
+			}, {
+				"created_time": "2016-10-10T04:04:20+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "I'm not sure what shows up in the view you get on Canvas, but at least in our grading view, Canvas shows the python file as plain text.\n\nThe most common mistake in past years has been uploading from Homeworks_OriginalVersion, so double check that (a) you've saved the Python file in Eclipse or your other editor and (b) that you're uploading from the right folder.\n\nAlso, if you continue committing and pushing to Bitbucket (please do!), you can check on the web that you've successfully sent your code to the repository. On the web, you can go to your repository, git, source, and then the homework file. This also gives you a timestamped backup, just in case anything goes wrong with the Canvas submission.",
+				"id": "673640926134601"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN6TmpNNU1ERTJNVE0wTnpreU9qRTBOell3TnpFNE5qST0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN6TmpRd09USTJNVE0wTmpBeE9qRTBOell3TnpJeU5qQT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Angus  Vong",
+			"id": "361946670649155"
+		},
+		"message": "Hey guys, is anyone having problems counting the last line (blank line) of hw2feed.txt? I got 50 lines, but the output image shows 51 lines. Any idea?",
+		"id": "667329996765694_673582046140489",
+		"likes": {
+			"data": [{
+				"id": "715819371809182",
+				"name": "Mackenna Lees"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "NzE1ODE5MzcxODA5MTgy",
+					"after": "NzE1ODE5MzcxODA5MTgy"
+				}
+			}
+		},
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-10T00:59:02+0000",
+				"from": {
+					"name": "Josephine Le",
+					"id": "924976024182664"
+				},
+				"message": "Posted earlier this week: \"On HW2, when you go through the feed, you might have just 50 lines. That's fine! This has to do with how the last linefeed character is handled in different environments.\" so it's all good :)",
+				"id": "673582376140456"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN6TlRneU16YzJNVFF3TkRVMk9qRTBOell3TmpFeE5EST0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN6TlRneU16YzJNVFF3TkRVMk9qRTBOell3TmpFeE5EST0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Addison Simon",
+			"id": "848573848523507"
+		},
+		"message": "After I do \ncd ~\n.\/getHW.sh 2\nlike the pdf suggests, the 2 folders for HW2 are created in Homeworks and Homeworks_OriginalVersion, but they are empty...how do I fix this?",
+		"id": "667329996765694_673530246145669",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-09T22:04:24+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Are you on the virtual machine or OS X?",
+				"id": "673531296145564"
+			}, {
+				"created_time": "2016-10-09T22:06:04+0000",
+				"from": {
+					"name": "Addison Simon",
+					"id": "848573848523507"
+				},
+				"message": "virtual machine",
+				"id": "673532819478745"
+			}, {
+				"created_time": "2016-10-09T22:19:10+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Did you get any errors at the terminal when you ran it? This sometimes happens if git can't connect to the Internet or to Assembla in particular.",
+				"id": "673535542811806"
+			}, {
+				"created_time": "2016-10-09T22:42:58+0000",
+				"from": {
+					"name": "Addison Simon",
+					"id": "848573848523507"
+				},
+				"message": "Yes, the terminal says:",
+				"id": "673540679477959"
+			}, {
+				"created_time": "2016-10-09T22:44:06+0000",
+				"from": {
+					"name": "Addison Simon",
+					"id": "848573848523507"
+				},
+				"message": "fatal: No remote repository specified. Please, specify either a URL or a remote name from which new revisions should be fetched. fetching hw 2. cp: cannot stat 'hw2\/*': No such file or directory",
+				"id": "673541069477920"
+			}, {
+				"created_time": "2016-10-09T22:55:21+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Hrm. Can you try running:\nmore ~\/CourseFiles\/hcde310a16\/.git\/config\nin termal (all one line) and pasting the output (copy and paste or screenshot is fine)?",
+				"id": "673544859477541"
+			}, {
+				"created_time": "2016-10-09T23:21:44+0000",
+				"from": {
+					"name": "Addison Simon",
+					"id": "848573848523507"
+				},
+				"message": "",
+				"id": "673552919476735"
+			}, {
+				"created_time": "2016-10-09T23:37:41+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Weird. Is your CourseFiles directory still there?",
+				"id": "673557462809614"
+			}, {
+				"created_time": "2016-10-09T23:44:00+0000",
+				"from": {
+					"name": "Addison Simon",
+					"id": "848573848523507"
+				},
+				"message": "",
+				"id": "673559266142767"
+			}, {
+				"created_time": "2016-10-09T23:44:23+0000",
+				"from": {
+					"name": "Addison Simon",
+					"id": "848573848523507"
+				},
+				"message": "the CourseFiles folder is still there...",
+				"id": "673559326142761"
+			}, {
+				"created_time": "2016-10-09T23:45:40+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Yeah. And how about hcde310a16? It seems like it has forgotten your git repository, so trying to figure out where that happened.\n\nSorry for all the step by step - I know it is tedious",
+				"id": "673559559476071"
+			}, {
+				"created_time": "2016-10-09T23:51:33+0000",
+				"from": {
+					"name": "Addison Simon",
+					"id": "848573848523507"
+				},
+				"message": "Yes, hcde310a16 is still within CourseFiles",
+				"id": "673560802809280"
+			}, {
+				"created_time": "2016-10-09T23:54:40+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "thanks. if you type (within that folder): \nls -a\ndoes it show a .git directory?\n\nor from another directory, you can try \nls -a ~\/CourseFiles\/hcde310a16?",
+				"id": "673561386142555"
+			}, {
+				"created_time": "2016-10-10T00:00:29+0000",
+				"from": {
+					"name": "Addison Simon",
+					"id": "848573848523507"
+				},
+				"message": "I received: bash: Is-a~\/CourseFiles\/hcde310a16?: No such file or directory",
+				"id": "673563336142360"
+			}, {
+				"created_time": "2016-10-10T00:00:41+0000",
+				"from": {
+					"name": "Addison Simon",
+					"id": "848573848523507"
+				},
+				"message": "I'm not sure if I followed your instructions correctly",
+				"id": "673563439475683"
+			}, {
+				"created_time": "2016-10-10T00:01:30+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "it looks like there should be a space between the ls and -a and a and ~",
+				"id": "673563522809008"
+			}, {
+				"created_time": "2016-10-10T00:02:19+0000",
+				"from": {
+					"name": "Addison Simon",
+					"id": "848573848523507"
+				},
+				"message": "ok now it says Is: command not found",
+				"id": "673563672808993"
+			}, {
+				"created_time": "2016-10-10T00:02:37+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "oh the \"l\" is a lowercase L",
+				"id": "673563769475650"
+			}, {
+				"created_time": "2016-10-10T00:05:28+0000",
+				"from": {
+					"name": "Addison Simon",
+					"id": "848573848523507"
+				},
+				"message": "Oh sorry, my bad. It now gives: ls: cannot access '\/home\/hcde310\/CourseFiles\/hcde310a16?' No such file or directory",
+				"id": "673564416142252"
+			}, {
+				"created_time": "2016-10-10T00:06:01+0000",
+				"from": {
+					"name": "Addison Simon",
+					"id": "848573848523507"
+				},
+				"message": "should I not be including the question mark?",
+				"id": "673564516142242"
+			}, {
+				"created_time": "2016-10-10T00:09:16+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "yeah - no question mark, sorry! Hard to mix commands and the text about the commands",
+				"id": "673565342808826"
+			}, {
+				"created_time": "2016-10-10T00:11:01+0000",
+				"from": {
+					"name": "Addison Simon",
+					"id": "848573848523507"
+				},
+				"message": "",
+				"id": "673565876142106"
+			}, {
+				"created_time": "2016-10-10T00:15:30+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "strange, it totally seems to have forgotten about .git. Okay. I think you can do (each command is a separate line):\n\ncd ~\/CourseFiles\/hcde310a16\ngit init\ngit remote add origin https:\/\/git.assembla.com\/hcde310a16.git\n\nthen try:\n\ncd ~\n.\/getHW.sh\n\nmy *guess* is you will get an error in there somewhere, so when you do, go ahead and post that and we can debug from there",
+				"id": "673567072808653"
+			}, {
+				"created_time": "2016-10-10T00:17:41+0000",
+				"from": {
+					"name": "Addison Simon",
+					"id": "848573848523507"
+				},
+				"message": "",
+				"id": "673567782808582"
+			}, {
+				"created_time": "2016-10-10T00:22:27+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "thanks. This looks like progress. Let's try:\n\ncd ~\/CourseFiles\/hcde310a16\/\ngit pull origin master\n\nif that works, then we can change back to the home directory and try to get HW2\n\ncd ~\n.\/getHW.sh 2",
+				"id": "673569136141780"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN6TlRNeE1qazJNVFExTlRZAME9qRTBOell3TlRBMk5qUT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN6TlRZANU1UTTJNVFF4Tnpnd09qRTBOell3TlRnNU5EYz0ZD"
+				},
+				"next": "https:\/\/graph.facebook.com\/v2.8\/667329996765694_673530246145669\/comments?access_token=EAACEdEose0cBAHlnr5krek87tbxYrkpSDlLwG5Yjm9kjK2D4iORXolksZBsBjhJyszqOLLhkkPXYyVZCtBeeizq5k7g3sUeGHumPHxeQIb45VX8iiL7dbzF9OMTm28rJnOQgqbViLqNRkn42mSxuObaCIbo8k1xLNxZCfjJQQZDZD&limit=25&after=WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN6TlRZANU1UTTJNVFF4Tnpnd09qRTBOell3TlRnNU5EYz0ZD"
+			}
+		}
+	}, {
+		"from": {
+			"name": "Eric Eckert",
+			"id": "10205305117414249"
+		},
+		"message": "Hello,\n\nThe getHW.sh has a small issues that I would like to highlight. After some testing I discovered that if the files\/folders in .\/CourseFiles\/hcde310a16\/Homeworks are altered or moved, and getHW.sh is run again, the git fetch only seems to check whether the correct subdirectories exist and not the files. And if getHW.sh is run with a number parameter, it's written to simply copy the .py files from .\/CourseFiles\/hcde310a16\/Homeworks to .\/Homeworks. The result is that when the latter is called, the former files do not exist and the homework cannot be fetched. But if getHw.sh is called again, it does not replace the .py files because the subdirectories do exist.\n\nI tried a few different options and discovered that git fetch followed by git reset --hard solves the problem on my computer because it always overrides everything in .\/CourseFiles\/hcde310a16. That shouldn't be a problem because the user is asked if they want to override the Homework files when copying them over anyways. The git reset --hard seems to not work on the Linux mint vm. Maybe one of the TAs can do some testing with this?",
+		"id": "667329996765694_673537636144930",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-09T22:52:25+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Thanks Eric. I've looked through, and a couple of notes:\n\n=Virtual Machine =\nThis seems to be working as expected. The git pull is outside the conditional and will run regardless of whether an argument is provided.\n\nIt does have the issue that if you delete a hw directory within CourseFiles\/Homeworks, it won't reappear -- this is git performing as expected. This should be okay since the CourseFiles directory is meant to mostly be left alone with homeworks instead being done in ~\/Homeworks. \n\nI was able to run git reset --hard within the hcde310a16 directory (note: not encouraging this in general, since it'll overwrite any changes you have made to lecture files).\n\n= getHW.sh on Canvas (for macOS) = \nI've looked here too -- the git pull is outside the the conditionals, so the git fetch should be running regardless of whether it is run with our without the number.\n\nSo it seems like the only issue that occurs is when files or directories are moved from within .\/CourseFIles\/hcde310a16\/Homeworks?\n\nIt's also possible I'm misunderstanding, so please let me know if so.",
+				"id": "673543169477710"
+			}, {
+				"created_time": "2016-10-09T23:09:26+0000",
+				"from": {
+					"name": "Eric Eckert",
+					"id": "10205305117414249"
+				},
+				"message": "Sean\n\nThanks for the quick reply! I do think we're on the same page. I didn't know that its not supposed to replace the files so I suppose nothing is wrong there. Yes in theory there shouldn't be any missing homework directories but I've encountered some cases where some of them are in fact missing, and the student was not able to pull homeworks as a result. I am just wondering if that base could be covered in case it happens again.",
+				"id": "673549452810415"
+			}, {
+				"created_time": "2016-10-09T23:15:28+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Got it, thanks - I'll give it some thought and test some things; also adding Michael to the thread to think about it. I've tried to pick the right set of tradeoffs between which mistakes are possible vs. prevented with this script, but knowing which issues come up can help us rethink it.",
+				"id": "673551402810220"
+			}, {
+				"created_time": "2016-10-10T00:10:12+0000",
+				"from": {
+					"name": "Eric Eckert",
+					"id": "10205305117414249"
+				},
+				"message": "Thank you Sean!",
+				"id": "673565609475466"
+			}, {
+				"created_time": "2016-10-10T00:26:39+0000",
+				"from": {
+					"name": "Michael Fern",
+					"id": "10204688917648972"
+				},
+				"message": "My two cents,\nThe way things are done can leave some confusion. With that said I have noticed that for some the distinction between the class repository that getHW pulls from(CourseFiles\/hcde310a16) and the copy folders(i.e. Homeworks, Homeworks_OrginalVersions) allows for an initial understanding of a couple of the more core \u201cGit rules\u201d. Ideally, if the system is used correctly people shouldn\u2019t have to do too much else other than running \u2018getHW.*\u2019 To do that however, sometimes some further explanation of Git is necessary.\n\nEric it seems like you are adding a bit of customization to your system, which is great! If you want to stop by office hours to show us what you\u2019ve done we would be happy to take a look and perhaps change the class copy of \u2019getHW.*\u2019 script to make the system as a whole more intuitive. If this interests you I have intended office hours are from 12-1pm and alternatively have free time before and after that :-)",
+				"id": "673570279474999"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN6TlRRek1UWTVORGMzTnpFd09qRTBOell3TlRNMU5EVT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN6TlRjd01qYzVORGMwT1RrNU9qRTBOell3TlRreE9Uaz0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Becky Baron",
+			"id": "781758325168808"
+		},
+		"message": "I'm using my own environment and eclipse insisted that I change the names of my files to use an underscore instead of a dash because otherwise the name was not \"a valid identifier.\" For example, I'm now using the file name  \"hw2_exercises.py\" instead of \"hw2-exercises.py\". I'm not really sure what the issue is, but will it be a problem if i submit the files on canvas with the different names?",
+		"id": "667329996765694_673025459529481",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-08T22:36:48+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Hi Becky -- that should be okay. If it's easy to rename them when you upload, that might save the TAs a few seconds but overall not a major issue. (but John or Chia-Fang, please speak up if this will break your grading process!)",
+				"id": "673029139529113"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN6TURJNU1UTTVOVEk1TVRFek9qRTBOelU1TmpZAeU1EZAz0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN6TURJNU1UTTVOVEk1TVRFek9qRTBOelU1TmpZAeU1EZAz0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Michael Fern",
+			"id": "10204688917648972"
+		},
+		"message": "Hi everyone working on wishing their on environments!\n\nWe made a small bug fix to \u2018getHW.*\u2019 (both .sh and the .bat files). Both files have been re uploaded to canvas with the fix. The feature we added allows the macOS and Windows versions of \u2018getHW.*\u2019 to mirror the process that is used in mint. It\u2019s not necessary to change to this file so if you are happy with your current setup, please keep using it.\n\nNew \"getHW.*\" file:\nhttps:\/\/canvas.uw.edu\/courses\/1066100\/files\/folder\/getHW.*\n\n'getHW.*' directions for Windows and macOS\nhttps:\/\/canvas.uw.edu\/courses\/1066100\/pages\/git-on-windows-and-mac-with-gethw-dot-star",
+		"id": "667329996765694_672898836208810",
+		"likes": {
+			"data": [{
+				"id": "10205555232617860",
+				"name": "Rabea Baroudi"
+			}, {
+				"id": "10205305117414249",
+				"name": "Eric Eckert"
+			}, {
+				"id": "839998299357792",
+				"name": "ShinYoung Lucia Choi"
+			}, {
+				"id": "548730186640",
+				"name": "Chia-Fang Chung"
+			}, {
+				"id": "749585911731635",
+				"name": "Yeh-Eun Lee"
+			}, {
+				"id": "10203810435853147",
+				"name": "Alex Gilbert"
+			}, {
+				"id": "715819371809182",
+				"name": "Mackenna Lees"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "MTAyMDU1NTUyMzI2MTc4NjAZD",
+					"after": "NzE1ODE5MzcxODA5MTgy"
+				}
+			}
+		},
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-08T20:25:37+0000",
+				"from": {
+					"name": "Eric Eckert",
+					"id": "10205305117414249"
+				},
+				"message": "Thanks for the new script! I took a look at it and noticed it creates a \"Homework\" and \"Homework Original Version\" directory, but it pulls to \"\/CourseFiles\/hcde310a16\/Homeworks\" leaving the former two directories empty. Were we supposed to use those directories for something?",
+				"id": "672982212867139"
+			}, {
+				"created_time": "2016-10-08T20:31:12+0000",
+				"from": {
+					"name": "Michael Fern",
+					"id": "10204688917648972"
+				},
+				"message": "Correct, if you run just the getHW.sh script those two folders will be created but left empty. To update 'Homeworks' and Homeworks_OringinalVersions' you have to designate which hw set to download.\nSo..\n$ sh getHW.sh 2\nwill  copy the files for the HW2 folder only",
+				"id": "672983736200320"
+			}, {
+				"created_time": "2016-10-08T20:34:37+0000",
+				"from": {
+					"name": "Eric Eckert",
+					"id": "10205305117414249"
+				},
+				"message": "Ok thanks. I realized I just made a small error in editing the bash script my bad.",
+				"id": "672984589533568"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN5T1RneU1qRXlPRFkzTVRNNU9qRTBOelU1TlRnek16Yz0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN5T1RnME5UZAzVOVE16TlRZANE9qRTBOelU1TlRnNE56Yz0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Chia-Fang Chung",
+			"id": "548730186640"
+		},
+		"message": "[HW2 & beyond] If you would like to submit a newer version of any part of the assignment, please resubmit all the files.\n\nCanvas only allows us batch-download the latest submission. If you can help make sure that latest submission contains all your files, it'll make sure we don\u2019t miss your files and make our life a lot easier! Thanks :)",
+		"id": "667329996765694_672929836205710",
+		"likes": {
+			"data": [{
+				"id": "10204688917648972",
+				"name": "Michael Fern"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "MTAyMDQ2ODg5MTc2NDg5NzIZD",
+					"after": "MTAyMDQ2ODg5MTc2NDg5NzIZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Mackenna Lees",
+			"id": "715819371809182"
+		},
+		"message": "Got everything able to push and commit, but when I type \".\/gethw.sh\" into command prompt, the path is unspecified and I cannot access\/download hw1 from the git repo. Thoughts\/suggestions?",
+		"id": "667329996765694_671661589665868",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-06T05:39:54+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "What directory are you in?\n\nTo run getHW.sh on the virtual machine, you'll need to be in your home directory. In your virtual machine, you can tell you are in the home directory because the prompt will be\nhcde310\u0040adminuser-VirtualBox ~ $\nrather than another directory, e.g.\nhcde310\u0040adminuser-VirtualBox ~\/Homeworks $",
+				"id": "671665146332179"
+			}, {
+				"created_time": "2016-10-06T05:42:31+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "(also just realized that it could give an error about unspecified path if you are trying to get HW2 - that's not *quite* ready yet.)",
+				"id": "671665852998775"
+			}, {
+				"created_time": "2016-10-06T05:56:01+0000",
+				"from": {
+					"name": "Mackenna Lees",
+					"id": "715819371809182"
+				},
+				"message": "do not have virtual box!",
+				"id": "671668309665196"
+			}, {
+				"created_time": "2016-10-06T06:00:44+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Are you on a Mac or Windows?\n\nIf on a Mac, does getHW.sh show up if you list the directory contents (to do this, you can type \"ls\" at the terminal).\n\nOn Windows, we've been using getHW.bat, and to see if that's in the current directory, you can type \"dir\" in powershell.",
+				"id": "671669092998451"
+			}, {
+				"created_time": "2016-10-06T20:11:03+0000",
+				"from": {
+					"name": "Mackenna Lees",
+					"id": "715819371809182"
+				},
+				"message": "mmk. I'm in hcde310a16, then homeworks and after using getHW.bat the system says that is not recognized as an internal or external command. Not sure what else I should try.",
+				"id": "671968206301873"
+			}, {
+				"created_time": "2016-10-06T21:04:13+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "This might be more easily addressed in a few seconds in class (since you're on your own system, it's hard for us know exactly where everything is or to know the state), so maybe catch one of us at the start of class?",
+				"id": "671982819633745"
+			}, {
+				"created_time": "2016-10-06T21:27:27+0000",
+				"from": {
+					"name": "Mackenna Lees",
+					"id": "715819371809182"
+				},
+				"message": "Got it sorted with Lucia!! Thanks Sean.",
+				"id": "671991889632838"
+			}, {
+				"created_time": "2016-10-06T22:02:27+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Thanks for the follow up, and thanks ShinYoung Lucia Choi!",
+				"id": "672015849630442"
+			}, {
+				"created_time": "2016-10-06T22:04:29+0000",
+				"from": {
+					"name": "ShinYoung Lucia Choi",
+					"id": "839998299357792"
+				},
+				"message": "No problem! Glad I could help :)",
+				"id": "672016359630391"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN4TmpZAMU1UUTJNek15TVRjNU9qRTBOelUzTXpJek9UUT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN5TURFMk16VTVOak13TXpreE9qRTBOelUzT1RFME5qaz0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Mallory Kester",
+			"id": "10203864902000998"
+		},
+		"message": "I am in my own environment. Thoughts\/suggestions on how to fix this when I try to commit any file?",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/s130x130\/14494817_10208427223056173_5511530808779146784_n.jpg?oh=a1a691317fe6c48c405c705caf8dba4d&oe=588D4BDE",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=10208427223056173&set=gm.671666162998744&type=3",
+		"id": "667329996765694_671666162998744",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-06T05:52:16+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Hi Mallory - when you got to push to the server, is Eclipse prompting you for a username and password, or is it using a stored one?",
+				"id": "671667152998645"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN4TmpZAM01UVXlPVGs0TmpRMU9qRTBOelUzTXpNeE16WT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN4TmpZAM01UVXlPVGs0TmpRMU9qRTBOelUzTXpNeE16WT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Lauren Beehler",
+			"id": "10203757715458155"
+		},
+		"message": "Is it ok if we send you the link to our GitHub\/ BitBucket repo instead of uploading the .py file?",
+		"id": "667329996765694_671651123000248",
+		"likes": {
+			"data": [{
+				"id": "924976024182664",
+				"name": "Josephine Le"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "OTI0OTc2MDI0MTgyNjY0",
+					"after": "OTI0OTc2MDI0MTgyNjY0"
+				}
+			}
+		},
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-06T04:58:09+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Hi Lauren. Thanks for asking -- on this one:\n1) we'd prefer that you make the repo private. \n2) Canvas makes it really easy for us to download all the assignments at once, which gets a bit harder when code is distributed across 90 repositories. It would help the TAs give everyone timely feedback if you can upload the file.",
+				"id": "671653593000001"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN4TmpVek5Ua3pNREF3TURBeE9qRTBOelUzTWprNE9Eaz0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN4TmpVek5Ua3pNREF3TURBeE9qRTBOelUzTWprNE9Eaz0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Kelly Xu",
+			"id": "925652447451980"
+		},
+		"message": "I am trying to commit my HW 1 but when I go to commit, I get an error message saying \"There are no staged files.\" I successfully committed everything else before so I'm confused now.",
+		"id": "667329996765694_671640196334674",
+		"likes": {
+			"data": [{
+				"id": "715819371809182",
+				"name": "Mackenna Lees"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "NzE1ODE5MzcxODA5MTgy",
+					"after": "NzE1ODE5MzcxODA5MTgy"
+				}
+			}
+		},
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-06T04:18:49+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Hi Kelly -- for some reason, the latest version of Eclipse doesn't seem to always recognize that you've changed a file and that it should be staged. \n\nAfter you click \"commit\", you'll see a dialog box \/ panel for your commit. To the left, there should be a box \"unstaged files\" -- right click on the file you've changed and click \"add to index\"\n\nThis should work. It's also annoying, and so it may be easier to commit from terminal. I'll post notes on that shortly.",
+				"id": "671645143000846"
+			}, {
+				"created_time": "2016-10-06T04:26:12+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "and notes on doing this from terminal: https:\/\/canvas.uw.edu\/courses\/1066100\/pages\/git-from-terminal",
+				"id": "671647376333956"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN4TmpRMU1UUXpNREF3T0RRMk9qRTBOelUzTWpjMU1qaz0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN4TmpRM016YzJNek16T1RVMk9qRTBOelUzTWpjNU56UT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Madison Holbrook",
+			"id": "1041607862538159"
+		},
+		"message": "I have completed HW1 and I did team->commit->team-> push to upstream, entered my password, and everything was working fine. Accept now, on my bitbucket page it is not showing that anything has been committed since I did my first one last night. I have done the entire process both on the larger homework file and HW1, but neither has shown anything on the bitbucket website that it was backed up correctly. Any thoughts? I just want to make sure everything is saved before I submit and exit out.",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/s130x130\/14606367_1320219898010286_7934959568470583281_n.jpg?oh=91bdaa1de1636d1f9773b7657ad4d0ae&oe=5887B762",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=1320219898010286&set=gm.671529159679111&type=3",
+		"id": "667329996765694_671529159679111",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-06T00:36:53+0000",
+				"from": {
+					"name": "Molly Donohue",
+					"id": "10153145266504727"
+				},
+				"message": "When you do team->commit, do you get any error messages? Anything about unstaged changes?",
+				"id": "671556553009705"
+			}, {
+				"created_time": "2016-10-06T01:06:59+0000",
+				"from": {
+					"name": "Emma Faubion",
+					"id": "10202516698836998"
+				},
+				"message": "I was having the same issue. The last window that pops up before it seems like it's all good, does it have a message in brackets? Like not available or something.",
+				"id": "671568799675147"
+			}, {
+				"created_time": "2016-10-06T04:27:29+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "When you are committing, are you using commit and push, or just commit? \n\nAssuming everything is good there and it's still not working, you can also try to just use git at the terminal: https:\/\/canvas.uw.edu\/courses\/1066100\/pages\/git-from-terminal",
+				"id": "671647633000597"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN4TlRVMk5UVXpNREE1TnpBMU9qRTBOelUzTVRReU1UTT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN4TmpRM05qTXpNREF3TlRrM09qRTBOelUzTWpnd05UQT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Kelly Xu",
+			"id": "925652447451980"
+		},
+		"message": "Does anyone know if there is a specific command aside from cd that I have to use to access a folder in terminal? I know the folder exists because when I use the command ls, the folder is listed to be there but when I try to cd to it, it tells me the file doesn't exist.",
+		"id": "667329996765694_671152796383414",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-05T06:36:23+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Hi Kelly -- it's usually \"cd \u003Cdirectory name>\".  e.g., \"cd Homeworks\" will move you from your home folder to the Homeworks folder. One common, easy error here is that directory names are case sensitive. \n\nIf that doesn't do the trick, let us know which folder, and\/or post a screenshot and I or others may have more ideas!",
+				"id": "671153539716673"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN4TVRVek5UTTVOekUyTmpjek9qRTBOelUyTkRrek9EUT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN4TVRVek5UTTVOekUyTmpjek9qRTBOelUyTkRrek9EUT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Sean Munson",
+			"id": "214500245"
+		},
+		"message": "On hw1 exercise 2b, indexing is the same as slicing. Sorry for the vocab change!",
+		"id": "667329996765694_671015693063791",
+		"likes": {
+			"data": [{
+				"id": "10202973615294213",
+				"name": "Scott Smith"
+			}, {
+				"id": "10152579245661037",
+				"name": "Vrishti Bhowmik"
+			}, {
+				"id": "10205414821924195",
+				"name": "Caleb Park"
+			}, {
+				"id": "732173280148141",
+				"name": "Emily Wong"
+			}, {
+				"id": "839998299357792",
+				"name": "ShinYoung Lucia Choi"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "MTAyMDI5NzM2MTUyOTQyMTMZD",
+					"after": "ODM5OTk4Mjk5MzU3Nzky"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Bonnie Tran",
+			"id": "10202780997499521"
+		},
+		"message": "Is anyone else receiving this same error? \"Trying to open a VM config 'C:\/Users\/Bonnie\/Downloads\/VM310\/Mint\/HCDE310-linuxmint-18-64bit.vbox' which has the same UUID as an existing virtual machine\"",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/s130x130\/14462893_10208994094543064_9114910832845981099_n.jpg?oh=65b5423f5e05033a234a6a6fcacea7e7&oe=58A84FF0",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=10208994094543064&set=gm.670097126488981&type=3",
+		"id": "667329996765694_670097126488981",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-03T05:23:22+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "A couple of students had this issue in class on Thursday -- the issue seemed to be having two copies of VirtualBox open at the same time (which can be hard to see in Windows, because of how it aggregates different instances in the task bar). Any chance you have more than one instance of VirtualBox open?",
+				"id": "670098333155527"
+			}, {
+				"created_time": "2016-10-03T05:27:43+0000",
+				"from": {
+					"name": "Mackenna Lees",
+					"id": "715819371809182"
+				},
+				"message": "Same issue. I've reinstalled virtual box like 6 times, made sure all copies are deleted.",
+				"id": "670100426488651"
+			}, {
+				"created_time": "2016-10-04T02:07:22+0000",
+				"from": {
+					"name": "Jackie Yu",
+					"id": "329715237380531"
+				},
+				"message": "Same problem here. I've deleted all the extra files, but this is still popping up",
+				"id": "670537526444941"
+			}, {
+				"created_time": "2016-10-04T03:37:37+0000",
+				"from": {
+					"name": "Alex Gilbert",
+					"id": "10203810435853147"
+				},
+				"message": "hey all, I've done some testing and found a solution for you. it is a bit of a hassle, so if needed I can look at it in class. for those who want to try it now (I've only tested on windows!), here it is:\n\n1) Open up your command prompt (by typing cmd in the start menu and clicking on it). Navigate to where you installed virtual box - if you didn't move it around, you can type\n\ncd C:\\Program Files\\Oracle\\VirtualBox\\\n\ninto your cmd.\n\n2) Now, you'll have to copy and paste \n\nVBOXMANAGE.EXE internalcommands sethduuid \"DIRECTORY\"\n\ninto your cmd, except replace DIRECTORY with the HCDE310 .vdi file location. Make sure you keep the quotes! for example, my file is located at C:\\Users\\Alex\\Downloads\\mint2\\HCDE310-linuxmint-17.1-cinnamon-64bit.vdi, so I would type \n\nVBOXMANAGE.EXE internalcommands sethduuid \"C:\\Users\\Alex\\Downloads\\mint2\\HCDE310-linuxmint-17.1-cinnamon-64bit.vdi\"\n\nThis changes the UUID - you're getting this error because you've moved the location of the VM and are using the same image. virtual box is funny that way.\n\nThis is slightly complex, so feel free to ask for clarification! Otherwise, I can help you in\/after class tomorrow.",
+				"id": "670583209773706"
+			}, {
+				"created_time": "2016-10-04T21:52:16+0000",
+				"from": {
+					"name": "Nathan Young",
+					"id": "10152912249594810"
+				},
+				"message": "I tried your solution with some help from John and I'm still getting this error:",
+				"id": "670964149735612"
+			}, {
+				"created_time": "2016-10-04T22:20:54+0000",
+				"from": {
+					"name": "Alex Gilbert",
+					"id": "10203810435853147"
+				},
+				"message": "I think I have a solution for you - I don't have my Windows machine with me, so I can't test and type it out, but let me take a look in class!",
+				"id": "670975139734513"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN3TURrNE16TXpNVFUxTlRJM09qRTBOelUwTnpJeU1ETT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN3T1RjMU1UTTVOek0wTlRFek9qRTBOelUyTVRrMk5UUT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "John Porter",
+			"id": "10103234662382558"
+		},
+		"message": "Hey all, just a heads up  \u2013 I'm going to be in the student lounge in about 20 minutes for my office hours. Stop by if you're still having trouble with setup or anything!",
+		"id": "667329996765694_670934263071934",
+		"likes": {
+			"data": [{
+				"id": "10152912249594810",
+				"name": "Nathan Young"
+			}, {
+				"id": "548730186640",
+				"name": "Chia-Fang Chung"
+			}, {
+				"id": "214500245",
+				"name": "Sean Munson"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "MTAxNTI5MTIyNDk1OTQ4MTAZD",
+					"after": "MjE0NTAwMjQ1"
+				}
+			}
+		},
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-04T21:10:29+0000",
+				"from": {
+					"name": "Nathan Young",
+					"id": "10152912249594810"
+				},
+				"message": "Are you around still?",
+				"id": "670949836403710"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN3T1RRNU9ETTJOREF6TnpFd09qRTBOelUyTVRVME16QT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN3T1RRNU9ETTJOREF6TnpFd09qRTBOelUyTVRVME16QT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Molly Donohue",
+			"id": "10153145266504727"
+		},
+		"message": "On the assignment description there are two different due dates and times listed, there's Monday at 8pm, and then there's the part that says the assignment needs to be completed by the start of the second lecture. I only saw the line that said it was due on Tuesday, so will I be counted as late if I just submitted now?",
+		"id": "667329996765694_670608853104475",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-04T05:21:03+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "We don't count anything late for HW0; we just want to know who is still having tech issues so we can help before\/during class on Tuesday. \n\nFor tomorrow, I won't promise to have reviewed any answers or surveys submitted after tonight, though!",
+				"id": "670609196437774"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN3TmpBNU1UazJORE0zTnpjME9qRTBOelUxTlRnME5qTT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN3TmpBNU1UazJORE0zTnpjME9qRTBOelUxTlRnME5qTT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Bonnie Tran",
+			"id": "10202780997499521"
+		},
+		"message": "What is the user name and password for git assemblia?",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/s130x130\/14519648_10209000598505659_6425084779723752855_n.jpg?oh=f50d1cd0a3495773631e780ef4942819&oe=58981D9D",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=10209000598505659&set=gm.670530353112325&type=3",
+		"id": "667329996765694_670530353112325",
+		"likes": {
+			"data": [{
+				"id": "715819371809182",
+				"name": "Mackenna Lees"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "NzE1ODE5MzcxODA5MTgy",
+					"after": "NzE1ODE5MzcxODA5MTgy"
+				}
+			}
+		},
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-04T01:45:58+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Hi Bonnie -- what's triggering this dialog box? There shoudn't be anything in the homework that requires authenticating with Assembla (it's set to read only public access).",
+				"id": "670531383112222"
+			}, {
+				"created_time": "2016-10-04T01:48:04+0000",
+				"from": {
+					"name": "Josephine Le",
+					"id": "924976024182664"
+				},
+				"message": "I thought it was just the link to use when you \"git clone \u003Cgit repository URL>\". I didn't use VM so this is the route I took to clone the hcde310a16 repository. You don't need user\/pw when cloning",
+				"id": "670531776445516"
+			}, {
+				"created_time": "2016-10-04T01:55:53+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Ah, okay. This seems to want to open it in the web browser, which Assembla doesn't like. You can view the repository directly in a web browser with out being logged in at: https:\/\/app.assembla.com\/spaces\/hcde310a16\/git\/source\n\nand the scripts *should* work fine if you run the getHW.* scripts (whichever is appropriate for your environment). It's just clicking the .git link that seems to ask for authentication.",
+				"id": "670533909778636"
+			}, {
+				"created_time": "2016-10-04T02:21:50+0000",
+				"from": {
+					"name": "Eric Eckert",
+					"id": "10205305117414249"
+				},
+				"message": "You actually don't need the username and pass in order to pull from the repository. You wont be able to access it on the browser but pulling it should be fine.",
+				"id": "670546176444076"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN3TlRNeE16ZA3pNVEV5TWpJeU9qRTBOelUxTkRVMU5UZAz0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN3TlRRMk1UYzJORFEwTURjMk9qRTBOelUxTkRjM01UQT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Vrishti Bhowmik",
+			"id": "10152579245661037"
+		},
+		"message": "For part 8, are we assuming that the user will use an IDE to follow the instructions on how to count the number of words in a text file?",
+		"id": "667329996765694_670433453122015",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-03T20:34:03+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "You can decide on what assumptions to make - these might be helpful to note in part 8 or to reflect on in part 9.",
+				"id": "670436916455002"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN3TkRNMk9URTJORFUxTURBeU9qRTBOelUxTWpZANE5ETT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN3TkRNMk9URTJORFUxTURBeU9qRTBOelUxTWpZANE5ETT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Alex Gilbert",
+			"id": "10203810435853147"
+		},
+		"message": "Hey guys, just a reminder that I'll be having office hours in Sieg 422 from 3:30 to 4:30 - come find me if you need USB's with the virtual machine files, troubleshooting, or general life advice!",
+		"id": "667329996765694_670429306455763",
+		"likes": {
+			"data": [{
+				"id": "10204688917648972",
+				"name": "Michael Fern"
+			}, {
+				"id": "10205305117414249",
+				"name": "Eric Eckert"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "MTAyMDQ2ODg5MTc2NDg5NzIZD",
+					"after": "MTAyMDUzMDUxMTc0MTQyNDkZD"
+				}
+			}
+		},
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-03T20:05:59+0000",
+				"from": {
+					"name": "Sie-ce Karras",
+					"id": "1179045672156342"
+				},
+				"message": "Any chance you'll be getting there a bit early? I have a class starting at 3:30 and am having some software problems.",
+				"id": "670429686455725"
+			}, {
+				"created_time": "2016-10-03T20:07:44+0000",
+				"from": {
+					"name": "Alex Gilbert",
+					"id": "10203810435853147"
+				},
+				"message": "I'm in the lounge right now and will be for a bit, but I have class up until 3:20. If you're free at 4:30 I can stay later!",
+				"id": "670430106455683"
+			}, {
+				"created_time": "2016-10-03T20:08:47+0000",
+				"from": {
+					"name": "Sie-ce Karras",
+					"id": "1179045672156342"
+				},
+				"message": "My class goes til 5:50 but I can be there in 20. Will you still be there?",
+				"id": "670430426455651"
+			}, {
+				"created_time": "2016-10-03T20:10:32+0000",
+				"from": {
+					"name": "Alex Gilbert",
+					"id": "10203810435853147"
+				},
+				"message": "I'll be here!",
+				"id": "670430899788937"
+			}, {
+				"created_time": "2016-10-03T20:11:21+0000",
+				"from": {
+					"name": "Sie-ce Karras",
+					"id": "1179045672156342"
+				},
+				"message": "Awesome!",
+				"id": "670431053122255"
+			}, {
+				"created_time": "2016-10-03T20:30:21+0000",
+				"from": {
+					"name": "Eric Eckert",
+					"id": "10205305117414249"
+				},
+				"message": "Wow! Thanks Alex! I will definitely make full use of your helpful office hours!!!!",
+				"id": "670435593121801"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN3TkRJNU5qZAzJORFUxTnpJMU9qRTBOelUxTWpVeE5Uaz0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN3TkRNMU5Ua3pNVEl4T0RBeE9qRTBOelUxTWpZAMk1qRT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Yvonna Skrinnik",
+			"id": "1182254025125159"
+		},
+		"message": "Any chance we will be able to use the USB's tomorrow in\/after class to dowload the VM? Everytime I tryto download from Google it cancels itself about halfway through and I had a class during office hours this morning.",
+		"id": "667329996765694_670426803122680",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-03T20:02:06+0000",
+				"from": {
+					"name": "Alex Gilbert",
+					"id": "10203810435853147"
+				},
+				"message": "We'll have some USB's available! I also have office hours today from 3:30 - 4:30 today in Sieg 422, if you want to come by and load the files then",
+				"id": "670428976455796"
+			}, {
+				"created_time": "2016-10-03T20:04:40+0000",
+				"from": {
+					"name": "Yvonna Skrinnik",
+					"id": "1182254025125159"
+				},
+				"message": "I have another class at 330 exactly, but ill try downloading it off the USB tomorrow! Thanks!",
+				"id": "670429436455750"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN3TkRJNE9UYzJORFUxTnprMk9qRTBOelUxTWpRNU1qWT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN3TkRJNU5ETTJORFUxTnpVd09qRTBOelUxTWpVd09EQT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "ShinYoung Lucia Choi",
+			"id": "839998299357792"
+		},
+		"message": "*** Office Hours Change ***\nI will be having office hours tomorrow (Oct. 3rd) from 10am to 12pm at the HCDE Student Lounge for this week since the homework is due tomorrow. \n\nNot an expert on virtual machines, but I will try my best to fix problems if any! :)",
+		"id": "667329996765694_670075726491121",
+		"likes": {
+			"data": [{
+				"id": "767090746705506",
+				"name": "Jessie Kuo"
+			}, {
+				"id": "10206755881915011",
+				"name": "Gina Lee"
+			}, {
+				"id": "878249528884465",
+				"name": "Gabby Bilka"
+			}, {
+				"id": "10204688917648972",
+				"name": "Michael Fern"
+			}, {
+				"id": "900511893295250",
+				"name": "Tien Do"
+			}, {
+				"id": "732173280148141",
+				"name": "Emily Wong"
+			}, {
+				"id": "214500245",
+				"name": "Sean Munson"
+			}, {
+				"id": "715819371809182",
+				"name": "Mackenna Lees"
+			}, {
+				"id": "1370250912988237",
+				"name": "Kate Cowley"
+			}, {
+				"id": "1041607862538159",
+				"name": "Madison Holbrook"
+			}, {
+				"id": "749585911731635",
+				"name": "Yeh-Eun Lee"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "NzY3MDkwNzQ2NzA1NTA2",
+					"after": "NzQ5NTg1OTExNzMxNjM1"
+				}
+			}
+		},
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-03T03:57:29+0000",
+				"from": {
+					"name": "Mackenna Lees",
+					"id": "715819371809182"
+				},
+				"message": "I will be there.",
+				"id": "670079006490793"
+			}, {
+				"created_time": "2016-10-03T04:49:58+0000",
+				"from": {
+					"name": "Michael Fern",
+					"id": "10204688917648972"
+				},
+				"message": "My office hours tomorrow are right after from 12-1pm. Same place!",
+				"id": "670092269822800"
+			}, {
+				"created_time": "2016-10-03T04:57:00+0000",
+				"from": {
+					"name": "Sie-ce Karras",
+					"id": "1179045672156342"
+				},
+				"message": "any chance someone has office hours between 1-2 or 2-3 tomorrow?",
+				"id": "670093759822651"
+			}, {
+				"created_time": "2016-10-03T05:53:30+0000",
+				"from": {
+					"name": "Michael Fern",
+					"id": "10204688917648972"
+				},
+				"message": "Sie-ce Karras Unfortunately those times are not planned for tomorrow. But if you try to get there around 1, I might be able to give you some direction on where to go with your question\/issue before I leave",
+				"id": "670108686487825"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN3TURjNU1EQTJORGt3Tnprek9qRTBOelUwTmpjd05Eaz0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN3TVRBNE5qZAzJORGczT0RJMU9qRTBOelUwTnpRd01UQT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Eric Eckert",
+			"id": "10205305117414249"
+		},
+		"message": "If I chose to not use the VM, do I have to use Eclipse for part 6? Or are other environments acceptable?",
+		"id": "667329996765694_670041279827899",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-03T02:12:15+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Other environments are fine.",
+				"id": "670041909827836"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN3TURReE9UQTVPREkzT0RNMk9qRTBOelUwTmpBM016VT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN3TURReE9UQTVPREkzT0RNMk9qRTBOelUwTmpBM016VT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Becky Baron",
+			"id": "781758325168808"
+		},
+		"message": "Is anyone else having an issue where everything in the Virtual Machine is showing up extremely small? I can barely read even the largest text on the screen and I'm not sure how to fix it. Here's a screenshot where I have it maximized:",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/s130x130\/14563427_1301693976508571_2426756951046861545_n.jpg?oh=7a279c7c2c7886d1d2d7235e6cf644e6&oe=588E68F1",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=1301693976508571&set=gm.670017506496943&type=3",
+		"id": "667329996765694_670017506496943",
+		"likes": {
+			"data": [{
+				"id": "878249528884465",
+				"name": "Gabby Bilka"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "ODc4MjQ5NTI4ODg0NDY1",
+					"after": "ODc4MjQ5NTI4ODg0NDY1"
+				}
+			}
+		},
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-03T01:26:01+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Hi Becky - I *think* that what's happening is the virtual machine doesn't recognize it should be scaling up the display content for your high res display. I've fixed this in the past by going to the Mint menu (the one you have open in the screenshot), then \"Preferences\" -> \"General\" and setting \"User Interface scaling\" to \"Double (Hi-DPI)\"",
+				"id": "670023716496322"
+			}, {
+				"created_time": "2016-10-03T01:32:41+0000",
+				"from": {
+					"name": "Becky Baron",
+					"id": "781758325168808"
+				},
+				"message": "That fixed it! Thank you!",
+				"id": "670029236495770"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN3TURJek56RTJORGsyTXpJeU9qRTBOelUwTlRjNU5qST0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN3TURJNU1qTTJORGsxTnpjd09qRTBOelUwTlRnek5qRT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Addison Simon",
+			"id": "848573848523507"
+		},
+		"message": "Once I have my screenshots saved within the Pictures folder of the virtual machine, is there a way I can export them so I can include them in word documents or PDFs for submitting the assignment to canvas?",
+		"id": "667329996765694_670006533164707",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-03T00:50:20+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "On most systems, you can drag the files to the desktop on your main computer. You might have to enable this under the \"Devices\" menu -> Drag and Drop -> Guest to Host (or bidirectional)",
+				"id": "670006963164664"
+			}, {
+				"created_time": "2016-10-03T01:01:20+0000",
+				"from": {
+					"name": "Addison Simon",
+					"id": "848573848523507"
+				},
+				"message": "I did that, and now it seems to allow the picture to be dragged and dropped onto my desktop, except within virtual machine I get a \"dropping data...\" notification that remains at 0\u0025 so the picture is never fully copied onto the desktop.",
+				"id": "670009436497750"
+			}, {
+				"created_time": "2016-10-03T01:03:52+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Hrm. This may mean it doesn't work so well on your system. Are you on Windows or macOS? \n\nI'm on macOS, and sometimes for expedience I just take the screenshot using macOS's utilities (cmd+shift+4, and then drag around the area I want -- the trick is I have to be *outside* the virtual box to take a screenshot).",
+				"id": "670010059831021"
+			}, {
+				"created_time": "2016-10-03T01:04:05+0000",
+				"from": {
+					"name": "Madison Holbrook",
+					"id": "1041607862538159"
+				},
+				"message": "I used my main desktop to take snap shots of my screen, put them into a word document, wrote the rest of the assignment, and then emailed myself the PDF. I then opened my email and downloaded my PDF inside the virtual machine.",
+				"id": "670010093164351"
+			}, {
+				"created_time": "2016-10-03T01:10:15+0000",
+				"from": {
+					"name": "Addison Simon",
+					"id": "848573848523507"
+				},
+				"message": "Okay. I'm on Windows, so I will try taking the photos not through the virtual machine. Thank you for the help!",
+				"id": "670011476497546"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN3TURBMk9UWXpNVFkwTmpZAME9qRTBOelUwTlRVNE1qQT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN3TURFeE5EYzJORGszTlRRMk9qRTBOelUwTlRjd01UVT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Tien Do",
+			"id": "900511893295250"
+		},
+		"message": "Hello, did anyone get this error when trying to open the 64bit file?",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/s130x130\/14522961_1283798808299888_1264975658852673279_n.jpg?oh=05408deca0e4c682c3a4efb66a47f836&oe=58A96D52",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=1283798808299888&set=gm.669934483171912&type=3",
+		"id": "667329996765694_669934483171912",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-02T21:09:16+0000",
+				"from": {
+					"name": "Melody Lee",
+					"id": "10204704240706780"
+				},
+				"message": "I think I got this error when I tried to move the file somewhere else. I solved it by moving it back into downloads",
+				"id": "669934963171864"
+			}, {
+				"created_time": "2016-10-02T21:09:53+0000",
+				"from": {
+					"name": "Tien Do",
+					"id": "900511893295250"
+				},
+				"message": "Hmm, I didn't move the file anywhere :\/",
+				"id": "669935119838515"
+			}, {
+				"created_time": "2016-10-02T21:11:17+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Hi Tien - have you installed the extension pack? https:\/\/www.virtualbox.org\/wiki\/Downloads",
+				"id": "669935789838448"
+			}, {
+				"created_time": "2016-10-02T21:33:29+0000",
+				"from": {
+					"name": "Tien Do",
+					"id": "900511893295250"
+				},
+				"message": "Yes, I have. I am going to try something and get back to you guys!",
+				"id": "669943879837639"
+			}, {
+				"created_time": "2016-10-03T00:28:21+0000",
+				"from": {
+					"name": "Tien Do",
+					"id": "900511893295250"
+				},
+				"message": "I reinstalled everything and the error went away.",
+				"id": "670002073165153"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOalk1T1RNME9UWXpNVGN4T0RZAME9qRTBOelUwTkRJMU5UYz0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOamN3TURBeU1EY3pNVFkxTVRVek9qRTBOelUwTlRRMU1ERT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Madison Holbrook",
+			"id": "1041607862538159"
+		},
+		"message": "I'm a tad bit confused for part 7 of the homework. I can't seem to find where the 'project listing' tab would be off to the left of the screen that has the code file. I believe I downloaded it correctly though.",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/s130x130\/14446200_1316981765000766_6280013261871979240_n.jpg?oh=7dedf55ab6d10415a8f579dda04fe847&oe=588FDF22",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=1316981765000766&set=gm.669903586508335&type=3",
+		"id": "667329996765694_669903586508335",
+		"likes": {
+			"data": [{
+				"id": "10207304894556469",
+				"name": "Ryan Zuzelski"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "MTAyMDczMDQ4OTQ1NTY0NjkZD",
+					"after": "MTAyMDczMDQ4OTQ1NTY0NjkZD"
+				}
+			}
+		},
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-02T19:46:19+0000",
+				"from": {
+					"name": "Kelsey Fukuda",
+					"id": "10203662867319412"
+				},
+				"message": "I think in eclipse in the lectures drop down you can look for s2. Or in the folders\/files you can go to course files and then look through lectures",
+				"id": "669904553174905"
+			}, {
+				"created_time": "2016-10-02T19:59:39+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Kelsey's post covers where it should show up, and it does look like it downloaded fine.\n\nThe last time you tried it, it looks like the VM had some trouble connecting to the git repository. I'm actually having a similar problem now, so I'll keep an eye on it.",
+				"id": "669908986507795"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOalk1T1RBME5UVXpNVGMwT1RBMU9qRTBOelUwTXpjMU56az0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOalk1T1RBNE9UZAzJOVEEzTnprMU9qRTBOelUwTXpnek56az0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Celina Hipolito",
+			"id": "10206060110764709"
+		},
+		"message": "Hey guys, I'm having trouble with the Virtual Machine. I've installed it fine but says \"error: file '\/boot\/grub\/i386-pc\/normal.mod' not found\" then the prompt \"grub rescue>\". I'm assuming I need to find this normal.mod file. Anyone know how to find it?",
+		"id": "667329996765694_669557626542931",
+		"likes": {
+			"data": [{
+				"id": "715819371809182",
+				"name": "Mackenna Lees"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "NzE1ODE5MzcxODA5MTgy",
+					"after": "NzE1ODE5MzcxODA5MTgy"
+				}
+			}
+		},
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-02T04:05:35+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Hi Celina -- a couple of questions to help troubleshoot. (1) Did you install from the download or a USB drive? (2) did it ever run correctly on your machine?",
+				"id": "669558106542883"
+			}, {
+				"created_time": "2016-10-02T04:06:27+0000",
+				"from": {
+					"name": "Celina Hipolito",
+					"id": "10206060110764709"
+				},
+				"message": "I downloaded from google drive and no, it gives me this error every time.",
+				"id": "669558383209522"
+			}, {
+				"created_time": "2016-10-02T04:12:28+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "If, in the VirtualBox Manager window, you click on settings, can you post a screenshot of the results?",
+				"id": "669560343209326"
+			}, {
+				"created_time": "2016-10-02T04:20:02+0000",
+				"from": {
+					"name": "Celina Hipolito",
+					"id": "10206060110764709"
+				},
+				"message": "",
+				"id": "669565096542184"
+			}, {
+				"created_time": "2016-10-02T04:20:44+0000",
+				"from": {
+					"name": "Celina Hipolito",
+					"id": "10206060110764709"
+				},
+				"message": "Also possibly of interest, it gives a warning upon starting the VM manager:",
+				"id": "669565276542166"
+			}, {
+				"created_time": "2016-10-02T04:22:09+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "thanks -- can you try running \"check\"? \n\nThere's a chance your download -- or the way it extracted -- is corrupt, in which case it will be easiest to just copy the files off a USB drive in office hours. But I want to try a couple of other thing first.",
+				"id": "669565806542113"
+			}, {
+				"created_time": "2016-10-02T04:23:48+0000",
+				"from": {
+					"name": "Celina Hipolito",
+					"id": "10206060110764709"
+				},
+				"message": "",
+				"id": "669566816542012"
+			}, {
+				"created_time": "2016-10-02T04:25:19+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Yeah... that looks like the file or extraction got corrupted (it should be about 10 GB). You can try re downloading, but it may not be worth the trouble. If you can make the Monday office hours, that may be a better use of your time.",
+				"id": "669567486541945"
+			}, {
+				"created_time": "2016-10-02T04:26:45+0000",
+				"from": {
+					"name": "Brent Gruenke",
+					"id": "10201865788073277"
+				},
+				"message": "I ran into the same issue. Windows 7. I finally just reinstalled everything then took the files from Dropbox and it works perfect now. I think the issue was something didn't extract right. Might be worth a try with the Dropbox files.",
+				"id": "669567799875247"
+			}, {
+				"created_time": "2016-10-02T04:48:01+0000",
+				"from": {
+					"name": "Celina Hipolito",
+					"id": "10206060110764709"
+				},
+				"message": "Okay, I'll try that! Thanks guys!!",
+				"id": "669573459874681"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOalk1TlRVNE1UQTJOVFF5T0Rnek9qRTBOelV6T0RFeE16VT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOalk1TlRjek5EVTVPRGMwTmpneE9qRTBOelV6T0RNMk9ERT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Kate Cowley",
+			"id": "1370250912988237"
+		},
+		"message": "Does anybody know how I would go about doing HW0 Part 7 (Downloading code snippets) while not on the VM? \n\nI was able to clone the repository per the setup instructions using git bash. That also got me the code file for lecture 2, but I'm guessing I shouldn't have to clone every time I want to update.\n\nI tried looking it up online, but I'm hoping somebody can confirm because this is all new to me. Is updating as simple as navigating to my master directory and then doing 'git pull' ?",
+		"id": "667329996765694_669584906540203",
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-02T05:25:21+0000",
+				"from": {
+					"name": "Samuel San Nicolas",
+					"id": "10202849723660407"
+				},
+				"message": "The file is on the canvas page. Download that and just run it. It's just a bash script that pretty much just fetches from the git repo, so I don't think you really need it though.",
+				"id": "669586326540061"
+			}, {
+				"created_time": "2016-10-02T05:25:36+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Hi Kate - it will mostly be as simple as a git pull, depending on where you edit your homeworks",
+				"id": "669586369873390"
+			}, {
+				"created_time": "2016-10-02T05:30:43+0000",
+				"from": {
+					"name": "Josephine Le",
+					"id": "924976024182664"
+				},
+				"message": "I did setup without VM on a MacBook -- not sure what computer you're using, but this is what worked for me: \n\nI downloaded the .\/getHW.sh file from Canvas and put it in the hcde310a16 folder (from cloning the repository). Navigate there in Terminal, then type .\/getHW.sh and it should update whenever you type that in the future. If permission is denied (which it was for me the first time I tried) then type: chmod 0755 .\/getHW.sh",
+				"id": "669588153206545"
+			}, {
+				"created_time": "2016-10-02T05:38:44+0000",
+				"from": {
+					"name": "Kate Cowley",
+					"id": "1370250912988237"
+				},
+				"message": "Got it working, thank you all!",
+				"id": "669595443205816"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOalk1TlRnMk16STJOVFF3TURZAeE9qRTBOelV6T0RVNU1qRT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOalk1TlRrMU5EUXpNakExT0RFMk9qRTBOelV6T0RZAM01qVT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Melody Lee",
+			"id": "10204704240706780"
+		},
+		"message": "Is anybody else having trouble with Virtual Machine and their internet connection? My internet was working fine until I tried to use the Internet through the Virtual Machine, just spend an hour talking to the Internet guy - it shows as my connection being fine but nothing on Internet will load. Closed out of VM, restarted multiple times, etc. All other devices work fine on the Internet... anybody know of a solution?",
+		"id": "667329996765694_668984073266953",
+		"likes": {
+			"data": [{
+				"id": "715819371809182",
+				"name": "Mackenna Lees"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "NzE1ODE5MzcxODA5MTgy",
+					"after": "NzE1ODE5MzcxODA5MTgy"
+				}
+			}
+		},
+		"comments": {
+			"data": [{
+				"created_time": "2016-10-01T04:47:07+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Does your Internet connection work fine other than in the Virtual Machine? \n\nIf so, it's probably the case that Virtual Machine need to be configured a little differently on your system. In VirtualBox, select Devices -> Network from the menu, and then Network settings. You should have a drop down, options that *usually* work for are:\nNAT\nNAT Network\nNAT Bridged \n\none student last year found that NAT didn't work at first, changed it to something else, and that didn't work -- and then changed it back to NAT, only to have it start working.\n\nSo maybe try those three, and then go back to whatever it whatever it was on if it doesn't start working. If that doesn't work, let us know what operating system you are on and we can do some more reading  to see if that prompts any more ideas.",
+				"id": "668985496600144"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOalk0T1RnMU5EazJOakF3TVRRME9qRTBOelV5T1RjeU1qYz0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOalk0T1RnMU5EazJOakF3TVRRME9qRTBOelV5T1RjeU1qYz0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Pooja Ghelani",
+			"id": "1409497779060705"
+		},
+		"message": "I keep getting locked out of virtual box, and none of the passwords \/ my uw password doesn't work. I'm not sure why?",
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/s130x130\/14492558_1402717903072026_6838521574130104233_n.jpg?oh=aa7b7cdd259514528343eecf8b869c11&oe=589F5254",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=1402717903072026&set=gm.668833726615321&type=3",
+		"id": "667329996765694_668833726615321",
+		"likes": {
+			"data": [{
+				"id": "767090746705506",
+				"name": "Jessie Kuo"
+			}, {
+				"id": "10204688917648972",
+				"name": "Michael Fern"
+			}, {
+				"id": "721163981323122",
+				"name": "Oorja Chowdhary"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "NzY3MDkwNzQ2NzA1NTA2",
+					"after": "NzIxMTYzOTgxMzIzMTIy"
+				}
+			}
+		},
+		"comments": {
+			"data": [{
+				"created_time": "2016-09-30T22:02:24+0000",
+				"from": {
+					"name": "ShinYoung Lucia Choi",
+					"id": "839998299357792"
+				},
+				"message": "Try hcde310a16 that's the password for the VM if I remember correctly.",
+				"id": "668836003281760"
+			}, {
+				"created_time": "2016-09-30T22:35:58+0000",
+				"from": {
+					"name": "Pooja Ghelani",
+					"id": "1409497779060705"
+				},
+				"message": "Thanks! Also for part 7 I'm not really sure what we're supposed to take a screenshot of. This is what happens in the terminal  when I type this: .\/getHW.sh. in",
+				"id": "668852746613419"
+			}, {
+				"created_time": "2016-10-01T03:45:15+0000",
+				"from": {
+					"name": "Jessie Kuo",
+					"id": "767090746705506"
+				},
+				"message": "If I'm not wrong, after you downloaded the latest work from git repository (which you did in this case) you should take a screenshot of Eclipse (the left side where the project listings are) showing that you have \"s2\" in your \"Lectures\" file. Hope this helps ~",
+				"id": "668970543268306"
+			}, {
+				"created_time": "2016-10-01T04:43:47+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Yup - if s2 appears, we know it's working. You may need to right click the Lectures folder and select \"Refresh\"",
+				"id": "668984906600203"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOalk0T0RNMk1EQXpNamd4TnpZAd09qRTBOelV5TnpJNU5EUT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOalk0T1RnME9UQTJOakF3TWpBek9qRTBOelV5T1Rjd01qYz0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Mackenna Lees",
+			"id": "715819371809182"
+		},
+		"message": "Anyone with Windows having major problems extracting the Mint file? E.g. \"Virtual Box cannot open this session\"",
+		"id": "667329996765694_668833623281998",
+		"comments": {
+			"data": [{
+				"created_time": "2016-09-30T22:13:37+0000",
+				"from": {
+					"name": "Kelsey Fukuda",
+					"id": "10203662867319412"
+				},
+				"message": "I had this problem a lot! Even downloading VM directly didn't work. I got the uncompressed file from one of the instructors' flash drives instead",
+				"id": "668838329948194"
+			}, {
+				"created_time": "2016-09-30T22:35:18+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Hi Mackenna - if it doesn't work, you might also try downloading one the Dropbox zip file (https:\/\/www.dropbox.com\/s\/0aawafxoik35v5a\/VM310.zip?dl=0) or the tar.gz (https:\/\/www.dropbox.com\/s\/nsry38imz2uaowr\/VM310.tar.gz?dl=0). These were each compressed a different way, so they *may* work better.\n\nIf not, we can work with you in office hours on Monday (12-1:00pm or 3:30pm) to get things set up. Or those times don't work, I can leave a USB drive with the HCDE front office by mid-morning Monday.",
+				"id": "668852606613433"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOalk0T0RNNE16STVPVFE0TVRrME9qRTBOelV5TnpNMk1UYz0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOalk0T0RVeU5qQTJOakV6TkRNek9qRTBOelV5TnpRNU1qRT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Eric Zhang",
+			"id": "10201925119953857"
+		},
+		"message": "Any input on whether having Python on the virtual machine vs an IDE is more of the \"industry standard?\"",
+		"id": "667329996765694_668509253314435",
+		"likes": {
+			"data": [{
+				"id": "924976024182664",
+				"name": "Josephine Le"
+			}, {
+				"id": "839998299357792",
+				"name": "ShinYoung Lucia Choi"
+			}, {
+				"id": "715819371809182",
+				"name": "Mackenna Lees"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "OTI0OTc2MDI0MTgyNjY0",
+					"after": "NzE1ODE5MzcxODA5MTgy"
+				}
+			}
+		},
+		"comments": {
+			"data": [{
+				"created_time": "2016-09-30T13:52:35+0000",
+				"from": {
+					"name": "Samuel San Nicolas",
+					"id": "10202849723660407"
+				},
+				"message": "What do you mean by \"on\"? In my experience, most people write their code in an IDE and then test\/deploy through some command line interface. Usually it's up to personal preference though. Although I'd say learning to use the command line is pretty important.",
+				"id": "668650916633602"
+			}, {
+				"created_time": "2016-09-30T15:50:37+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Yeah -- similar to Samuel's experiences, once you start developing production apps, people tend to develop in whatever environment is comfortable for them (or specified by their employer) and then test\/run it elsewhere.\n\nLater in the quarter, we'll get to Google Cloud SDK (formerly App Engine), which uses virtual machines to run production environments. Amazon Web Services Elastic Compute Cloud follows a similar approach. This is a common approach, for a mix of reasons. The top in my experience are: (1) you can customize the virtual system to your application's, (2) you can limit the amount of resources your virtual system uses on a shared physical machine,  (3) if you (or someone else using the same physical machine) writes a buggy app that crashes the system, it (typically) crashes just the virtual machine, rather than the entire system, and (4) it's easy to launch other \"instances\" of the virtual machine on other systems, so you can handle sudden spikes in traffic. \n\nApproaches like that are common for web apps now.  But I've also had some projects (typically remote collaborations) where it was easiest to create a virtual machine and run it on our own laptops, just like in class. For small scale data analysis, you also often write and run the code on the same system -- we do this a lot in our research, and many people do that for weblog analysis on small or medium sites (but this quickly becomes impractical when you get to Facebook-scale data).\n\nDocker (https:\/\/www.docker.com\/what-docker) has also become increasingly popular, and we're using it for some projects in our research now. A big difference is that VirtualMachines require you to run an entire guest operating system (in 310, this is the Linux Mint distribution), which has a lot of overhead in spaced resources. Docker relies on the host operating system (Windows, OS X, or whatever else you are already running) but still sets up containers with customized environments and resource environments. It's also increasingly supported by cloud hosting services (e.g., Google Cloud).",
+				"id": "668706656628028"
+			}, {
+				"created_time": "2016-09-30T23:33:01+0000",
+				"from": {
+					"name": "Eric Zhang",
+					"id": "10201925119953857"
+				},
+				"message": "I see. That makes a lot of sense - thanks for the help!",
+				"id": "668868309945196"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOalk0TmpVd09URTJOak16TmpBeU9qRTBOelV5TkRNMU5UWT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOalk0T0RZANE16QTVPVFExTVRrMk9qRTBOelV5Tnpnek9EST0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Madison Holbrook",
+			"id": "1041607862538159"
+		},
+		"message": "Is eclipse an application in the menu bar or a folder on the home screen? So far it's just a folder for me that does not contain the 'homeworks' project nor hw0 folder. Does eclipse have to be downloaded as well? Or how has everyone else been accessing eclipse?",
+		"id": "667329996765694_668837943281566",
+		"comments": {
+			"data": [{
+				"created_time": "2016-09-30T22:15:52+0000",
+				"from": {
+					"name": "Oorja Chowdhary",
+					"id": "721163981323122"
+				},
+				"message": "It should be on the desktop of the VM, so you shouldn't have to download it.",
+				"id": "668839039948123"
+			}, {
+				"created_time": "2016-09-30T22:16:39+0000",
+				"from": {
+					"name": "Madison Holbrook",
+					"id": "1041607862538159"
+				},
+				"message": "That's what I thought. Have you been able to access it and manipulate the homework file?",
+				"id": "668839203281440"
+			}, {
+				"created_time": "2016-09-30T22:18:14+0000",
+				"from": {
+					"name": "Oorja Chowdhary",
+					"id": "721163981323122"
+				},
+				"message": "Yeah! It should be on the left side of Eclipse under a folder called Homeworks.",
+				"id": "668839523281408"
+			}, {
+				"created_time": "2016-09-30T22:21:29+0000",
+				"from": {
+					"name": "Madison Holbrook",
+					"id": "1041607862538159"
+				},
+				"message": "Alright I'll try again! Thanks",
+				"id": "668842093281151"
+			}, {
+				"created_time": "2016-09-30T22:30:07+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "Let us know if that doesn't work - if you can post a screenshot of what you do see, that should help us figure out the next steps for troubleshooting",
+				"id": "668850626613631"
+			}, {
+				"created_time": "2016-09-30T22:53:55+0000",
+				"from": {
+					"name": "Madison Holbrook",
+					"id": "1041607862538159"
+				},
+				"message": "I figured it out! Thanks. I was in the wrong screen, so I only saw a file for eclipse and not the actual application.",
+				"id": "668858579946169"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOalk0T0RNNU1ETTVPVFE0TVRJek9qRTBOelV5TnpNM05UST0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOalk0T0RVNE5UYzVPVFEyTVRZANU9qRTBOelV5TnpZAd016VT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Karena Vongampai",
+			"id": "10207694040739044"
+		},
+		"message": "If we're uploading our code file through the virtual machine, is it alright to do 2 submissions?\n1 containing the code file, and the other a document with all the screenshots in it?",
+		"id": "667329996765694_668824403282920",
+		"comments": {
+			"data": [{
+				"created_time": "2016-09-30T21:22:44+0000",
+				"from": {
+					"name": "Sean Munson",
+					"id": "214500245"
+				},
+				"message": "If you do two submissions, please leave a submission comment - the tool we have for downloading assignments usually only downloads the latest submission.\n\nIt *may* also be possible to drag and drop the file from the virtual machine to your computer - though that does not work on every system. On a Mac, you might have to enable it by going to the Devices menu, then enabling guest to host or bidirectional drag and drop.",
+				"id": "668825476616146"
+			}, {
+				"created_time": "2016-09-30T21:26:23+0000",
+				"from": {
+					"name": "Karena Vongampai",
+					"id": "10207694040739044"
+				},
+				"message": "Thank you!",
+				"id": "668826306616063"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOalk0T0RJMU5EYzJOakUyTVRRMk9qRTBOelV5TnpBMU5qVT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOalk0T0RJMk16QTJOakUyTURZAek9qRTBOelV5TnpBM09EUT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Ian Russell",
+			"id": "10209833084922998"
+		},
+		"message": "Once I have Linux running in the virtual machine what is the next step?. Should it have python on it?",
+		"id": "667329996765694_668503799981647",
+		"comments": {
+			"data": [{
+				"created_time": "2016-09-30T06:28:53+0000",
+				"from": {
+					"name": "Oorja Chowdhary",
+					"id": "721163981323122"
+				},
+				"message": "Yeah it should have python 2.7 on there, and you would run the python programs using Eclipse! Most of the instructions are on the hw0 pdf.",
+				"id": "668505283314832"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOalk0TlRBMU1qZA3pNekUwT0RNeU9qRTBOelV5TVRZANU16TT0ZD",
+					"after": "WTI5dGJXVnVkRjlqZAFhKemIzSTZAOalk0TlRBMU1qZA3pNekUwT0RNeU9qRTBOelV5TVRZANU16TT0ZD"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Sean Munson",
+			"id": "214500245"
+		},
+		"picture": "https:\/\/scontent.xx.fbcdn.net\/v\/t1.0-0\/s130x130\/14479785_540692073736_4797392499150184096_n.jpg?oh=e28352c3a2dfb63fa6f14d0846589bcd&oe=58AA92FA",
+		"link": "https:\/\/www.facebook.com\/photo.php?fbid=540692073736&set=gm.668314340000593&type=3",
+		"id": "667329996765694_668314340000593",
+		"likes": {
+			"data": [{
+				"id": "839998299357792",
+				"name": "ShinYoung Lucia Choi"
+			}],
+			"paging": {
+				"cursors": {
+					"before": "ODM5OTk4Mjk5MzU3Nzky",
+					"after": "ODM5OTk4Mjk5MzU3Nzky"
+				}
+			}
+		}
+	}, {
+		"from": {
+			"name": "Sean Munson",
+			"id": "214500245"
+		},
+		"id": "667329996765694_667946033370757"
+	}, {
+		"from": {
+			"name": "Sean Munson",
+			"id": "214500245"
+		},
+		"id": "667329996765694_667330003432360"
+	}],
+	"paging": {
+		"previous": "https:\/\/graph.facebook.com\/v2.8\/667329996765694\/feed?fields=from,message,comments,likes,picture,link&limit=1000&icon_size=16&since=1477366590&access_token=EAACEdEose0cBAHlnr5krek87tbxYrkpSDlLwG5Yjm9kjK2D4iORXolksZBsBjhJyszqOLLhkkPXYyVZCtBeeizq5k7g3sUeGHumPHxeQIb45VX8iiL7dbzF9OMTm28rJnOQgqbViLqNRkn42mSxuObaCIbo8k1xLNxZCfjJQQZDZD&__paging_token=enc_AdB3JndnRZCr8ohn0fLZCVFJfihZBwzH5Ib8PAsSVq0sTTEsomxAiCzo0bqXamiyk9nktbMJ0VuTw7DuiFOpLhpqXVcWooeGoORQpPiKa8pggL8QAZDZD&__previous=1",
+		"next": "https:\/\/graph.facebook.com\/v2.8\/667329996765694\/feed?fields=from,message,comments,likes,picture,link&limit=1000&icon_size=16&access_token=EAACEdEose0cBAHlnr5krek87tbxYrkpSDlLwG5Yjm9kjK2D4iORXolksZBsBjhJyszqOLLhkkPXYyVZCtBeeizq5k7g3sUeGHumPHxeQIb45VX8iiL7dbzF9OMTm28rJnOQgqbViLqNRkn42mSxuObaCIbo8k1xLNxZCfjJQQZDZD&until=1474994366&__paging_token=enc_AdAUJSUS8JoZBnWHFnUE1UzRZB0tHOC6QrK9cmAw3ZCYkfJ32xzqvQLbKJ0h04APl9ZBEZAH4FCwF6GihAxaA2YHyyQd3kYwLMI6Eax5Ph9ElbIwaSgZDZD"
+	}
+}
