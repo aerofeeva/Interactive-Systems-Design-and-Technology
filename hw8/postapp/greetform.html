@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>{{page_title}}</title>
+</head>
+<body>
+	<h1>Search for Photos on Flickr</h1>
+<form action="results" method="post">
+    <label for="username">Please enter a search keyword:</label>
+    <input type="text" id="username" name="username" />
+    <br>
+    <input type="submit" value="Go" name="gobtn"/> </form>
+{% if prompt %}
+<div class= 'formtitle'>{{prompt}}</div>
+{% endif %}
+</body>
+</html>
