@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>{{page_title}}</title>
+</head>
+<body>
+<h1 style="font-family:Verdana, Geneva, sans-serif; font-size:40px; margin-left:35px; margin-top:20px; margin-bottom:0px">Adoptable Pets near {{location}}</h1>
+<p style="font-family:Verdana, Geneva, sans-serif; font-size:20px; margin-left:35px; margin-top:5px; margin-bottom:30px;">Click on a pet's photo to learn more about the pet</p>
+<div>
+{% for photo in urls %}
+	<figure>
+	<a href="https://www.petfinder.com/petdetail/{{id[loop.index0]}}">
+		<img src="{{photo}}">
+	</a>
+	<div></div>
+		<div style="display: inline-block; text-align: left">
+		<figcaption style="font-family:Verdana, Geneva, sans-serif; font-weight:bold; font-size:25px; color:green; margin-top:5px;">Name: {{name[loop.index0]}}</figcaption>
+		<figcaption style="font-family:Verdana, Geneva, sans-serif; font-size:20px;">Breed: {{breed[loop.index0]}}</figcaption>
+		<figcaption style="font-family:Verdana, Geneva, sans-serif; font-size:20px;">Age: {{age[loop.index0]}}</figcaption>
+		<figcaption style="font-family:Verdana, Geneva, sans-serif; font-size:20px;">Gender: {{gender[loop.index0]}}</figcaption>
+		<figcaption style="font-family:Verdana, Geneva, sans-serif; font-size:20px;">Size: {{size[loop.index0]}}</figcaption>
+		<figcaption style="font-family:Verdana, Geneva, sans-serif; font-size:20px; margin-bottom:30px;">City: {{city[loop.index0]}}</figcaption>
+	</div>
+	</figure>
+{% endfor %}
+</div>
+<p style="font-family:Verdana, Geneva, sans-serif; font-size:20px; margin-left:35px;"><a href = 'search'>Search again?</a></p>
+</body>
+</html>
